@@ -1,0 +1,15 @@
+current directory: /home/ridwanma/Documents/slate/vendor/cache/ruby/2.4.0/gems/fast_blank-1.0.0/ext/fast_blank
+/usr/bin/ruby2.4 -r ./siteconf20170607-14546-8eh776.rb extconf.rb
+creating Makefile
+
+current directory: /home/ridwanma/Documents/slate/vendor/cache/ruby/2.4.0/gems/fast_blank-1.0.0/ext/fast_blank
+make "DESTDIR=" clean
+
+current directory: /home/ridwanma/Documents/slate/vendor/cache/ruby/2.4.0/gems/fast_blank-1.0.0/ext/fast_blank
+make "DESTDIR="
+compiling fast_blank.c
+linking shared-object fast_blank.so
+
+current directory: /home/ridwanma/Documents/slate/vendor/cache/ruby/2.4.0/gems/fast_blank-1.0.0/ext/fast_blank
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fast_blank.so ./.gem.20170607-14546-4t0302
