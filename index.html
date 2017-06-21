@@ -2487,7 +2487,7 @@ after try catch
 
 <table><thead>
 <tr>
-<th>Kode Payment Channel (payment_channel)</th>
+<th>Kode Payment Channel</th>
 <th>Payment Channel</th>
 <th>Description</th>
 </tr>
@@ -6025,7 +6025,7 @@ Plugin dapat di copy maupun di install ke direktori folder web plugin yang digun
 <h3 id="getting-started">Getting Started</h3>
 
 <ul>
-<li>Login pada halaman Faspay Billing menggunakan username dan password yang sudah didapat dari Faspay. Masukkan juga kode captcha yang tampil kemudian klik Sign In</li>
+<li>Login pada halaman Faspay Billing menggunakan username dan password yang sudah didapat dari Faspay. Masukkan juga kode captcha yang tampil kemudian klik <strong>Sign In</strong></li>
 </ul>
 
 <p><img src="images/fasbil2.png" alt="Image of fasbil" />
@@ -6068,10 +6068,2742 @@ Plugin dapat di copy maupun di install ke direktori folder web plugin yang digun
 <p>Langkah-langkah Create Single Billing</p>
 
 <ul>
-<li>Klik menu Billing System pada panel menu sebelah kiri kemudian klik sub menu Single Billing
-<img src="images/fasbil5.png" alt="Image of fasbil" />
-<p align="center"><em>Sub menu Single Billing pada menu Billing System</em></p></li>
+<li>Klik menu <strong>Billing System</strong> pada panel menu sebelah kiri kemudian klik sub menu <strong>Single Billing</strong></li>
+<li>Isikan pada bagian Billing Form data-data penerima billingnya kemudian klik tombol <strong>Continue</strong></li>
 </ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Recipient Id</td>
+<td>Isi dengan nomor Id penerima billing</td>
+</tr>
+<tr>
+<td>Recipient VA Number</td>
+<td>Terisi otomatis oleh system. Berisi nomor virtual account untuk pembayaran</td>
+</tr>
+<tr>
+<td>Recipient Name</td>
+<td>Isi dengan nama penerima billing</td>
+</tr>
+<tr>
+<td>Recipient Email</td>
+<td>Isi dengan alamat email penerima billing</td>
+</tr>
+<tr>
+<td>Recipient Address</td>
+<td>Isi dengan alamat rumah penerima billing</td>
+</tr>
+<tr>
+<td>Billing Number</td>
+<td>Terisi otomatis oleh system. Berisi nomor penagihan</td>
+</tr>
+<tr>
+<td>Billing Date</td>
+<td>Isi dengan tanggal billing</td>
+</tr>
+<tr>
+<td>Due Date</td>
+<td>Isi dengan tanggal jatuh tempo billing</td>
+</tr>
+<tr>
+<td>Invoice Subject</td>
+<td>Isi dengan judul yang akan ditampilkan pada saat billing dikirimkan ke penerima billing</td>
+</tr>
+<tr>
+<td>Language</td>
+<td>Isi dengan bahasa yang digunakan untuk tampilan billing</td>
+</tr>
+<tr>
+<td>Department</td>
+<td>Isi dengan department yang ada pada merchant</td>
+</tr>
+<tr>
+<td>ONCE</td>
+<td>Pilih jika ingin sekali saja dilakukan pengiriman billing</td>
+</tr>
+<tr>
+<td>SCHEDULED</td>
+<td>Pilih jika ingin mengatur waktu pengiriman billing</td>
+</tr>
+<tr>
+<td>RECURRING</td>
+<td>Pilih jika ingin pengiriman billing dilakukan berulang-ulang untuk period pengiriman tertentu</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil6.png" alt="Image of fasbil" />
+<p align="center"><em>Form Isian untuk Data Penerima Billing</em></p></p>
+
+<p><img src="images/fasbil7.png" alt="Image of fasbil" />
+<p align="center"><em>Form Isian untuk Waktu Pengiriman Billing</em></p></p>
+
+<ul>
+<li>Isikan data barang yang dibeli kemudian klik <strong>Send Bill</strong>. Pastikan terdapat <em>notif Your Invoice Has Been Saved</em></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Client</td>
+<td>Terisi otomatis oleh system. Berisi keterangan data penerima billing</td>
+</tr>
+<tr>
+<td>From</td>
+<td>Terisi otomatis oleh system. Berisi keterangan data merchant</td>
+</tr>
+<tr>
+<td>Item Description</td>
+<td>Isi dengan data nama barang</td>
+</tr>
+<tr>
+<td>Qty</td>
+<td>Isi dengan jumlah qty yang dibeli</td>
+</tr>
+<tr>
+<td>Unit Price</td>
+<td>Isi dengan amount harga satuan barang</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>Terisi otomatis oleh system. Berisi total amount per baris barang</td>
+</tr>
+<tr>
+<td>Sub Total</td>
+<td>Terisi otomatis oleh system. Berisi total amount seluruh baris</td>
+</tr>
+<tr>
+<td>Item Tambahan</td>
+<td>Isi dengan nama item tambahan [optional]</td>
+</tr>
+<tr>
+<td>Amount Tambahan</td>
+<td>Isi dengan amount apabila terdapat item tambahan [optional]</td>
+</tr>
+<tr>
+<td>Grand Total</td>
+<td>Terisi otomatis oleh system. Berisi total keseluruhan transaksi yang harus dibayar</td>
+</tr>
+<tr>
+<td>Add More Item</td>
+<td>Tombol untuk menambahkan detail item barang</td>
+</tr>
+<tr>
+<td>Add Detail</td>
+<td>Tombol untuk menambahkan detail item tambahan</td>
+</tr>
+<tr>
+<td>Pay Here</td>
+<td>Tombol untuk membuat single billing baru</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>Isi dengan keterangan tambahan [jika diperlukan]</td>
+</tr>
+<tr>
+<td>Browse</td>
+<td>Tombol untuk menambahkan lampiran billing</td>
+</tr>
+<tr>
+<td>Send Bill</td>
+<td>Tombol untuk mengirimkan billing ke alamat email penerima billing</td>
+</tr>
+<tr>
+<td>Preview</td>
+<td>Tombol untuk melihat tampilan billing sebelum dikirim ke penerima billing</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil8.png" alt="Image of fasbil" />
+<img src="images/fasbil9.png" alt="Image of fasbil" />
+<p align="center"><em>Form Pengisian Detail Item Barang</em></p></p>
+
+<ul>
+<li>Penerima billing akan menerima email pemberitahuan yang berisi tampilan billing yang harus dibayar. Penerima billing dapat mengklik tombol <strong>Pay Here</strong> untuk melanjutkan ke proses pembayaran. Penerima billing akan diredirect ke halaman pembayaran Faspay Express.</li>
+</ul>
+
+<p><img src="images/fasbil10.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Email Pemberitahuan Tagihan Billing</em></p></p>
+
+<ul>
+<li><p>Pilih payment channel yang diinginkan untuk pembayaran billing. Terdapat 4 jenis tipe pembayaran, yaitu:</p>
+
+<ul>
+<li>Bank Transfer</li>
+<li>Internet Banking</li>
+<li>E-Wallet</li>
+<li>Credit Card</li>
+</ul></li>
+<li><p>Centang pilihan Term And Conditions kemudian klik <strong>Pay Now</strong> untuk menyelesaikan proses pembayaran. Penyelesaian pembayaran dapat dilakukan pada halaman Faspay Billing, diredirect ke halaman payment channel ataupun melalui ATM / handset.</p></li>
+</ul>
+
+<p><img src="images/fasbil11.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Faspay Express untuk Penyelesaian Pembayaran Billing</em></p></p>
+
+<h4 id="create-mass-billing">Create Mass Billing</h4>
+
+<p>Proses create mass billing bertujuan untuk membuat tagihan billing ke lebih dari satu penerima billing dengan detail transaksi yang diinput pada Faspay Billing. Penerima Billing dapat diinput melalui daftar Contact Group maupun dari template excel yang disediakan Faspay. Penerima billing maupun merchant akan sama-sama menerima notifikasi apabila pembayaran telah berhasil dilakukan.</p>
+
+<p><b><u>Langkah-langkah Create Mass Billing</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Billing System</strong> pada panel menu sebelah kiri kemudian klik sub menu Mass Billing</li>
+</ul>
+
+<p><b>Use Contact Group</b></p>
+
+<ul>
+<li>Isikan pada bagian <strong>Use Contact Group</strong> data-data penerima billingnya kemudian klik tombol <strong>Continue</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Department</td>
+<td>Isi dengan department yang ada pada merchant</td>
+</tr>
+<tr>
+<td>Select Group</td>
+<td>Isi dengan nama group penerima billing</td>
+</tr>
+<tr>
+<td>Invoice Subject</td>
+<td>Isi dengan judul yang akan ditampilkan pada saat billing dikirimkan ke penerima billing</td>
+</tr>
+<tr>
+<td>Language</td>
+<td>Isi dengan bahasa yang digunakan untuk tampilan billing</td>
+</tr>
+<tr>
+<td>Billing Date</td>
+<td>Isi dengan tanggal billing</td>
+</tr>
+<tr>
+<td>Due Date</td>
+<td>Isi dengan tanggal jatuh tempo billing</td>
+</tr>
+<tr>
+<td>Bill Number Pattern Start With</td>
+<td>Isi dengan format penomoran billing</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil12.png" alt="Image of fasbil" />
+<p align="center"><em>Form Isian untuk Data Penerima Billing</em></p></p>
+
+<p>Isikan data barang yang dibeli kemudian klik <strong>Send Bill</strong>. Pastikan terdapat notif <em>Your Invoice Has Been Saved</em></p>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Client</td>
+<td>Terisi otomatis oleh system. Berisi keterangan data penerima billing</td>
+</tr>
+<tr>
+<td>From</td>
+<td>Terisi otomatis oleh system. Berisi keterangan data merchant</td>
+</tr>
+<tr>
+<td>Item Description</td>
+<td>Isi dengan data nama barang</td>
+</tr>
+<tr>
+<td>Qty</td>
+<td>Isi dengan jumlah qty yang dibeli</td>
+</tr>
+<tr>
+<td>Unit Price</td>
+<td>Isi dengan amount harga satuan barang</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>Terisi otomatis oleh system. Berisi total amount per baris barang</td>
+</tr>
+<tr>
+<td>Sub Total</td>
+<td>Terisi otomatis oleh system. Berisi total amount seluruh baris</td>
+</tr>
+<tr>
+<td>Item Tambahan</td>
+<td>Isi dengan nama item tambahan [optional]</td>
+</tr>
+<tr>
+<td>Amount Tambahan</td>
+<td>Isi dengan amount apabila terdapat item tambahan [optional]</td>
+</tr>
+<tr>
+<td>Grand Total</td>
+<td>Terisi otomatis oleh system. Berisi total keseluruhan transaksi yang harus dibayar</td>
+</tr>
+<tr>
+<td>Add More Item</td>
+<td>Tombol untuk menambahkan detail item barang</td>
+</tr>
+<tr>
+<td>Add Detail</td>
+<td>Tombol untuk menambahkan detail item tambahan</td>
+</tr>
+<tr>
+<td>Pay Here</td>
+<td>Tombol untuk membuat single billing baru</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>Isi dengan keterangan tambahan [jika diperlukan]</td>
+</tr>
+<tr>
+<td>Browse</td>
+<td>Tombol untuk menambahkan lampiran billing</td>
+</tr>
+<tr>
+<td>Send Bill</td>
+<td>Tombol untuk mengirimkan billing ke alamat email penerima billing</td>
+</tr>
+<tr>
+<td>Preview</td>
+<td>Tombol untuk melihat tampilan billing sebelum dikirim ke penerima billing</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil13.png" alt="Image of fasbil" />
+<img src="images/fasbil14.png" alt="Image of fasbil" />
+<p align="center"><em>Form Pengisian Detail Item Barang</em></p></p>
+
+<ul>
+<li>Penerima billing akan menerima email pemberitahuan yang berisi tampilan billing yang harus dibayar. Penerima billing dapat mengklik tombol Pay Here untuk melanjutkan ke proses pembayaran. Penerima billing akan diredirect ke halaman pembayaran Faspay Express.</li>
+</ul>
+
+<p><img src="images/fasbil15.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Email Pemberitahuan Tagihan Billing</em></p></p>
+
+<ul>
+<li><p>Pilih payment channel yang diinginkan untuk pembayaran billing. Terdapat 4 jenis tipe pembayaran, yaitu:</p>
+
+<ul>
+<li>Bank Transfer</li>
+<li>Internet Banking</li>
+<li>E-Wallet</li>
+<li>Credit Card</li>
+</ul></li>
+<li><p>Centang pilihan Term And Conditions kemudian klik <strong>Pay Now</strong> untuk menyelesaikan proses pembayaran. Penyelesaian pembayaran dapat dilakukan pada halaman Faspay Billing, diredirect ke halaman payment channel ataupun melalui ATM / handset.</p></li>
+</ul>
+
+<p><img src="images/fasbil16.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Faspay Express untuk Penyelesaian Pembayaran Billing</em></p></p>
+
+<p><b>Use Excel Template</b></p>
+
+<ul>
+<li>Download excel template mass mail billing pada link download yang ada pada bagian bawah Use Our Template. Template mass mail billing ini berfungsi untuk menambahkan detail transaksi dan daftar penerima billing</li>
+<li>Isi data-data penerima billingnya pada template mass mail yang sudah di download</li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>no pelanggan</td>
+<td>Isi dengan data nomor pelanggan</td>
+</tr>
+<tr>
+<td>name</td>
+<td>Isi dengan nama penerima billing</td>
+</tr>
+<tr>
+<td>address</td>
+<td>Isi dengan alamat penerima billing</td>
+</tr>
+<tr>
+<td>email</td>
+<td>Isi dengan alamat penerima billing</td>
+</tr>
+<tr>
+<td>Invoice ID</td>
+<td>Isi dengan nomor invoice transaksi</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Isi dengan keterangan tambahan mengenai transaksi billing [optional]</td>
+</tr>
+<tr>
+<td>Item Name 1</td>
+<td>Isi dengan nama barang 1</td>
+</tr>
+<tr>
+<td>Amount Item Name 1</td>
+<td>Isi dengan harga barang 1</td>
+</tr>
+<tr>
+<td>Item Name 2</td>
+<td>Isi dengan nama barang 2</td>
+</tr>
+<tr>
+<td>Amount Item Name 2</td>
+<td>Isi dengan harga barang 2</td>
+</tr>
+<tr>
+<td>Item Name 3</td>
+<td>Isi dengan nama barang 3</td>
+</tr>
+<tr>
+<td>Amount Item Name 3</td>
+<td>Isi dengan harga barang 3</td>
+</tr>
+</tbody></table>
+
+<aside class="notice">
+Untuk item name dan amount item name menyesuaikan dengan billing yang akan diinput.
+</aside>
+
+<p><img src="images/fasbil17.png" alt="Image of fasbil" />
+<p align="center"><em>Template Mass Mail Billing</em></p></p>
+
+<p><img src="images/fasbil18.png" alt="Image of fasbil" />
+<p align="center"><em>Contoh Pengisian Template Mass Mail Billing</em></p></p>
+
+<ul>
+<li>Isikan pada bagian <strong>Use Our Template</strong> data-data penerima billingnya kemudian klik tombol <strong>Continue</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Browse</td>
+<td>Tombol untuk menambahkan lampiran template mass mail billing</td>
+</tr>
+<tr>
+<td>Department</td>
+<td>Isi dengan department yang ada pada merchant</td>
+</tr>
+<tr>
+<td>Invoice Subject</td>
+<td>Isi dengan judul yang akan ditampilkan pada saat billing dikirimkan ke penerima billing</td>
+</tr>
+<tr>
+<td>Language</td>
+<td>Isi dengan bahasa yang digunakan untuk tampilan billing</td>
+</tr>
+<tr>
+<td>Billing Date</td>
+<td>Isi dengan tanggal billing</td>
+</tr>
+<tr>
+<td>Due Date</td>
+<td>Isi dengan tanggal jatuh tempo billing</td>
+</tr>
+<tr>
+<td>Bill Number Pattern Start With</td>
+<td>Isi dengan format penomoran billing</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil19.png" alt="Image of fasbil" />
+<p align="center"><em>Form Isian untuk Data Penerima Billing</em></p></p>
+
+<ul>
+<li>Periksa kembali data mass mail yang akan diupload pada <strong>Preview Massmail Upload</strong>. Jika sudah sesuai klik <strong>Continue</strong>. Pastikan terdapat <em>notif Your Invoice Has Been Saved</em></li>
+</ul>
+
+<p><img src="images/fasbil20.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Preview Massmail Sebelum dilanjutkan ke Proses Upload</em></p></p>
+
+<ul>
+<li>Penerima billing akan menerima email pemberitahuan yang berisi tampilan billing yang harus dibayar. Penerima billing dapat mengklik tombol <strong>Pay Here</strong> untuk melanjutkan ke proses pembayaran. Penerima billing akan diredirect ke halaman pembayaran Faspay Express.</li>
+</ul>
+
+<p><img src="images/fasbil21.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Email Pemberitahuan Tagihan Billing</em></p></p>
+
+<ul>
+<li><p>Pilih payment channel yang diinginkan untuk pembayaran billing. Terdapat 4 jenis tipe pembayaran, yaitu:</p>
+
+<ul>
+<li>Bank Transfer</li>
+<li>Internet Banking</li>
+<li>E-Wallet</li>
+<li>Credit Card</li>
+</ul></li>
+<li><p>Centang pilihan Term And Conditions kemudian klik Pay Now untuk menyelesaikan proses pembayaran. Penyelesaian pembayaran dapat dilakukan pada halaman Faspay Billing, diredirect ke halaman payment channel ataupun melalui ATM / handset.</p></li>
+</ul>
+
+<p><img src="images/fasbil22.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Faspay Express untuk Penyelesaian Pembayaran Billing</em></p></p>
+
+<h3 id="billing-status">Billing Status</h3>
+
+<p>Merupakan menu untuk menampilkan rincian daftar semua transaksi billing yang sudah dibuat berikut dengan statusnya ataupun mengubah status transaksi billing. Pencarian data billing dapat dilakukan menggunakan filtering berdasarkan semua kolom maupun filtering menggunakan filtering tambahan yang terdapat di bagian atas tabel. Untuk data billing yang statusnya sudah Expired (belum di bayar namun sudah melebihi batas tanggal jatuh tempo) dapat dilakukan delete record.</p>
+
+<p><b>Langkah-langkah menampilkan data transaksi billing</b></p>
+
+<ul>
+<li>Klik menu <strong>Billing System</strong> pada panel menu sebelah kiri kemudian klik sub menu <strong>Billing Status</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Show Entries</td>
+<td>Pilih jumlah record/baris data billing yang ingin ditampilkan dalam tampilan 1 halaman</td>
+</tr>
+<tr>
+<td>Filter by Date</td>
+<td>Pilih untuk menampilkan data billing dalam range tanggal yang ditentukan berdasarkan kriteria Bill Date, Due Date dan Send Date</td>
+</tr>
+<tr>
+<td>Billing Number</td>
+<td>Isi untuk memfilter data billing berdasarkan nomor billing</td>
+</tr>
+<tr>
+<td>Recipient</td>
+<td>Isi untuk memfilter data billing berdasarkan nama penerima billing</td>
+</tr>
+<tr>
+<td>Billing Date</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal billing</td>
+</tr>
+<tr>
+<td>Due Date</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal jatuh tempo billing</td>
+</tr>
+<tr>
+<td>Value</td>
+<td>Isi untuk memfilter data billing berdasarkan jumlah amount billing</td>
+</tr>
+<tr>
+<td>Send Date</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal pengiriman billing</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Isi untuk memfilter data billing berdasarkan status transaksi billing. Terdapat 3 status transaksi billing yaitu : Paid (sudah dibayar), Unsettled (belum dibayar) dan Expired (belum dibayar namun sudah melebihi batas tanggal jatuh tempo)</td>
+</tr>
+<tr>
+<td>Delete</td>
+<td>Centang pada record data billing yang ingin di hapus kemudian klik tombol Delete</td>
+</tr>
+<tr>
+<td>Previous</td>
+<td>Klik untuk menuju halaman sebelumnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Next</td>
+<td>Klik untuk menuju halaman berikutnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Nomor Halaman</td>
+<td>Klik untuk menuju halaman record data billing berdasarkan nomor yang dipilih [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil23.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Billing Status</em></p></p>
+
+<ul>
+<li>Setelah melakukan filtering berdasarkan kriteria yang ditentukan klik pada transaksi yang diinginkan untuk memunculkan jendela Billing Details</li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Item</td>
+<td>Berisi informasi nama item barang</td>
+</tr>
+<tr>
+<td>Price</td>
+<td>Berisi informasi harga item barang</td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td>Berisi informasi qty item barang</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>Berisi informasi total amount tansaksi billing</td>
+</tr>
+<tr>
+<td>Bill Number</td>
+<td>Berisi informasi nomor billing</td>
+</tr>
+<tr>
+<td>Recipient Invoice ID</td>
+<td>Berisi informasi nomor ID penerima billing</td>
+</tr>
+<tr>
+<td>Date</td>
+<td>Berisi informasi tanggal transaksi billing</td>
+</tr>
+<tr>
+<td>Recipient Name</td>
+<td>Berisi informasi nama penerima billing</td>
+</tr>
+<tr>
+<td>Recipient Email</td>
+<td>Berisi informasi alamat email penerima billing</td>
+</tr>
+<tr>
+<td>Recipient Address</td>
+<td>Berisi informasi alamat penerima billing</td>
+</tr>
+<tr>
+<td>Language</td>
+<td>Berisi informasi bahasa yang digunakan pada billing statement</td>
+</tr>
+<tr>
+<td>Resend Date</td>
+<td>Berisi informasi tanggal pengiriman ulang transaksi billing [jika billing dikirim ulang]</td>
+</tr>
+<tr>
+<td>Due Date</td>
+<td>Berisi informasi tanggal jatuh tempo transaksi billing</td>
+</tr>
+<tr>
+<td>Value</td>
+<td>Berisi informasi nilai amount transaksi billing</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>Berisi informasi keterangan tambahan yang terdapat pada transaksi billing</td>
+</tr>
+<tr>
+<td>Email Customer Billing</td>
+<td>Berisi informasi tanggal dikirimkan tagihan billing</td>
+</tr>
+<tr>
+<td>Email Customer Notification Billing</td>
+<td>Berisi informasi tanggal dikirimkan notifikasi pembayaran billing ke penerima billing</td>
+</tr>
+<tr>
+<td>Email Merchant Notification Billing</td>
+<td>Berisi informasi tanggal dikirimkan notifikasi pembayaran billing ke merchant</td>
+</tr>
+<tr>
+<td>Extra Param 1</td>
+<td>Berisi keterangan informasi tambahan yang terdapat di Faspay Billing [jika ada]</td>
+</tr>
+<tr>
+<td>Extra Param 2</td>
+<td>Berisi keterangan informasi tambahan yang terdapat di Faspay Billing [jika ada]</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Berisi informasi status transaksi billing</td>
+</tr>
+<tr>
+<td>Payment Channel</td>
+<td>Berisi informasi payment channel yang digunakan pada transaksi billing</td>
+</tr>
+<tr>
+<td>Payment Date</td>
+<td>Berisi informasi tanggal pembayaran transaksi billing</td>
+</tr>
+<tr>
+<td>Status Change By</td>
+<td>Berisi informasi nama user yang merubah status transaksi billing [apabila status transaksi billing diubah manual]</td>
+</tr>
+<tr>
+<td>Pay URL</td>
+<td>Alamat URL untuk pembayaran transaksi billing</td>
+</tr>
+<tr>
+<td>Resend</td>
+<td>Merupakan tombol yang berfungsi untuk mengirimkan ulang tagihan billing</td>
+</tr>
+<tr>
+<td>Settle</td>
+<td>Merupakan tombol yang berfungsi untuk merubah status transaksi billing menjadi Paid secara manual</td>
+</tr>
+<tr>
+<td>Delete</td>
+<td>Merupakan tombol yang berfungsi untuk menghapus data transaksi billing [billing yang dapat dihapus hanya billing yang statusnya sudah expired]</td>
+</tr>
+<tr>
+<td>Cancel Payment</td>
+<td>Merupakan tombol yang berfungsi untuk membatalkan tagihan billing [billing yang dapat dibatalkan hanya billing yang statusnya belum Paid]</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil24.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Detail Billing</em></p></p>
+
+<h3 id="billing-setting">Billing Setting</h3>
+
+<p>Merupakan menu untuk melakukan pengecekan alamat URL link yang digunakan untuk pembayaran Faspay Billing melalui nomor virtual account.</p>
+
+<p><b><u>Langkah-langkah untuk melakukan pengecekan</u></b></p>
+
+<ul>
+<li><p>Klik menu <strong>Billing System</strong> pada panel menu sebelah kiri kemudian klik sub menu <strong>Billing Setting</strong></p></li>
+<li><p>Masukkan nomor virtual account yang akan dicek alamat URL link pembayaran billingnya pada field Generate VA Number (Check Digit). Your VA Number dan alamat VA static link akan otomatis muncul pada layar system.</p></li>
+</ul>
+
+<p><img src="images/fasbil25.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Billing Setting untuk Pengecekan URL Link</em></p></p>
+
+<h3 id="dashboard">Dashboard</h3>
+
+<p>Merupakan menu untuk menampilkan data transaksi billing dalam bentuk dashboard. Dashboard menampilkan transaksi berdasarkan status billing.</p>
+
+<p><b><u>Langkah-langkah menampilkan dashboard</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Dashboard</strong> pada panel menu sebelah kiri </li>
+</ul>
+
+<p><img src="images/fasbil26.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Dashboard Faspay Billing</em></p></p>
+
+<p><b><u>Status Transaction Bar :</u></b></p>
+
+<p>Menampilkan total summary amount transaksi berdasarkan statusnya.</p>
+
+<ul>
+<li>Paid      : Total transaksi billing yang sudah dibayar</li>
+<li>Expired   : Total transaksi billing yang belum dibayar namun sudah melewati batas jatuh tempo.</li>
+</ul>
+
+<p><b><u>Graphic Chart :</u></b></p>
+
+<p>Menampilkan perbandingan antara total amount transaksi penjualan dengan amount transaksi yang sudah dibayar dan amount transaksi yang sudah expired dalam bentuk tampilan grafik. Data pada grafik chart menunjukan transaksi billing per bulan.</p>
+
+<aside class="notice">
+<ul>
+<li>Arahkan pointer mouse pada chart bar untuk menampilkan detail amount sales, paid dan expired
+<li>Total sales pada panel sebelah kanan menampilkan summary total keseluruhan transaksi billing berdasarkan statusnya
+<li>Klik pada menu chart untuk menampilkan pilihan download grafik chart dalam berbagai format
+<li>Parameter pada bagian atas grafik berfungsi untuk mengubah pilihan data yang ditampilkan berdasarkan tahun
+</ul>
+</aside>
+
+<h3 id="recipient">Recipient</h3>
+
+<p>Merupakan menu yang berfungsi untuk mengelola data penerima billing. Data penerima billing ini dapat dibuat menjadi group untuk memudahkan dalam pengiriman tagihan billing ke pelanggan.</p>
+
+<h4 id="list-recipient">List Recipient</h4>
+
+<p>Merupakan menu untuk menampilkan rincian daftar semua penerima billing yang sudah dibuat. Pencarian data penerima billing dapat dilakukan menggunakan filtering berdasarkan semua kolom maupun filtering menggunakan filtering tambahan yang terdapat di bagian atas tabel. Untuk setiap record data penerima billing dapat dilakukan update data maupun delete data.</p>
+
+<p><b><u>Langkah-langkah menampilkan list recipient</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Recipient</strong> pada panel menu sebelah kiri</li>
+<li>Klik pada tab <strong>List Receipt</strong> untuk menampilkan daftar penerima billing dalam bentuk table</li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Show Entries</td>
+<td>Pilih jumlah record/baris data billing yang ingin ditampilkan dalam tampilan 1 halaman</td>
+</tr>
+<tr>
+<td>Number</td>
+<td>Isi untuk memfilter data penerima billing berdasarkan nomor penerima billing</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>Isi untuk memfilter data penerima billing berdasarkan nama penerima billing</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>Isi untuk memfilter data penerima billing berdasarkan alamat email penerima billing</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>Isi untuk memfilter data penerima billing berdasarkan alamat penerima billing</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>Isi untuk memfilter data penerima billing berdasarkan nomor telepon penerima billing</td>
+</tr>
+<tr>
+<td>Group</td>
+<td>Isi untuk memfilter data penerima billing berdasarkan group dari penerima billing</td>
+</tr>
+<tr>
+<td>Edit Recipent</td>
+<td>Tombol untuk melakukan perubahan data penerima billing</td>
+</tr>
+<tr>
+<td>Delete</td>
+<td>Tombol untuk menghapus data penerima billing</td>
+</tr>
+<tr>
+<td>Previous</td>
+<td>Klik untuk menuju halaman sebelumnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Next</td>
+<td>Klik untuk menuju halaman berikutnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Nomor Halaman</td>
+<td>Klik untuk menuju halaman record data billing berdasarkan nomor yang dipilih [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil27.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman List Recipient</em></p></p>
+
+<h4 id="create-recipient">Create Recipient</h4>
+
+<p>Merupakan menu untuk mendaftarkan data penerima billing. Data penerima billing ini akan digunakan pada saat membuat transaksi billing.</p>
+
+<p><b><u>Langkah-langkah mendaftarkan data penerima billing</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Recipient</strong> pada panel menu sebelah kiri</li>
+<li>Klik pada tab <strong>Create Receipt</strong> untuk menampilkan form pendaftaran penerima billing</li>
+<li>Isi data-data penerima billing kemudian klik tombol <strong>Create</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Recipient Code</td>
+<td>Isi dengan kode penerima billing</td>
+</tr>
+<tr>
+<td>Recipient Name</td>
+<td>Isi dengan nama penerima billing</td>
+</tr>
+<tr>
+<td>Recipient Email</td>
+<td>Isi dengan email penerima billing</td>
+</tr>
+<tr>
+<td>Recipient Phone</td>
+<td>Isi dengan nomor telepon penerima billing</td>
+</tr>
+<tr>
+<td>Recipient Addresss</td>
+<td>Isi dengan alamat penerima billing</td>
+</tr>
+<tr>
+<td>Group</td>
+<td>Pilih group untuk penerima billing</td>
+</tr>
+<tr>
+<td>VA Number</td>
+<td>Terisi otomatis oleh system berisi nomor virtual account</td>
+</tr>
+<tr>
+<td>Your VA Number</td>
+<td>Terisi otomatis oleh system sesuai  dengan VA number</td>
+</tr>
+<tr>
+<td>VA Static Link</td>
+<td>Terisi otomatis oleh system berisi link alamat URL untuk pembayaran transaksi billing</td>
+</tr>
+<tr>
+<td>Recipient Email Language</td>
+<td>Pilih bahasa standard yang digunakan untuk billing statementnya</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil28.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Form Pendaftaran Penerima Billing</em></p></p>
+
+<h4 id="create-group">Create Group</h4>
+
+<p>Merupakan menu untuk mendaftarkan group untuk pengelompokan penerima billing. Data group penerima billing ini akan digunakan pada saat membuat transaksi billing.</p>
+
+<p><b><u>Langkah-langkah mendaftarkan group penerima billing</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Recipient</strong> pada panel menu sebelah kiri</li>
+<li>Klik pada tab <strong>Create Group</strong> untuk menampilkan form pendaftaran group penerima billing</li>
+<li>Isi data-data group penerima billing kemudian klik tombol <strong>Create</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Group Name</td>
+<td>Isi dengan nama group penerima billing</td>
+</tr>
+<tr>
+<td>Group Description</td>
+<td>Isi dengan deskripsi / keterangan mengenai group penerima billing yang dibuat</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil29.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Form Pendaftaran Group Penerima Billing</em></p></p>
+
+<h4 id="manage-group">Manage Group</h4>
+
+<p>Merupakan menu untuk menampilkan rincian daftar semua group penerima billing yang sudah dibuat. Pencarian data group penerima billing dapat dilakukan menggunakan filtering berdasarkan semua kolom maupun filtering menggunakan filtering tambahan yang terdapat di bagian atas tabel. Untuk setiap record group penerima billing dapat dilakukan update data maupun delete data.</p>
+
+<p><b><u>Langkah-langkah menampilkan list group penerima billing</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Recipient</strong> pada panel menu sebelah kiri</li>
+<li>Klik pada tab <strong>Manage Group</strong> untuk menampilkan daftar group penerima billing dalam bentuk table</li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Show Entries</td>
+<td>Pilih jumlah record/baris data billing yang ingin ditampilkan dalam tampilan 1 halaman</td>
+</tr>
+<tr>
+<td>Name Group</td>
+<td>Isi untuk memfilter group berdasarkan nama group penerima billing</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Isi untuk memfilter group berdasarkan deskripsi / keterangan group penerima billing</td>
+</tr>
+<tr>
+<td>Edit Group</td>
+<td>Tombol untuk melakukan perubahan data group penerima billing</td>
+</tr>
+<tr>
+<td>Delete Group</td>
+<td>Tombol untuk menghapus data group penerima billing</td>
+</tr>
+<tr>
+<td>Previous</td>
+<td>Klik untuk menuju halaman sebelumnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Next</td>
+<td>Klik untuk menuju halaman berikutnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Nomor Halaman</td>
+<td>Klik untuk menuju halaman record data billing berdasarkan nomor yang dipilih [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil30.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Manage Group</em></p></p>
+
+<h4 id="export-to-excel">Export To Excel</h4>
+
+<p>Merupakan menu untuk mendownload laporan detail penerima billing. Laporan yang di download dalam bentuk file Excel.</p>
+
+<p><b><u>Langkah-langkah mendownload laporan detail penerima billing</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Recipient</strong> pada panel menu sebelah kiri</li>
+<li>Klik pada tab <strong>Export To Excel</strong> untuk mendownload file laporan detail penerima billing dalam bentuk file excel</li>
+<li>Plih <strong>Save File</strong> untuk menyimpan file kemudian klik tombol <strong>OK</strong></li>
+</ul>
+
+<p><img src="images/fasbil31.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan window untuk mendownload laporan detail penerima billing</em></p></p>
+
+<h3 id="edit-template">Edit Template</h3>
+
+<p>Merupakan menu untuk melakukan pengaturan tampilan desain template billing yang dikirim ke email penerima billing. Tampilan yang dapat diubah adalah tampilan warna dari desain template billing.</p>
+
+<p><b><u>Langkah-langkah mengedit template billing</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Edit Template</strong> pada panel menu sebelah kiri</li>
+<li>Klik pada item template yang akan diubah warna nya pada panel <strong>edit template</strong> sebelah kanan</li>
+</ul>
+
+<p><img src="images/fasbil32.png" alt="Image of fasbil" />
+<p align="center"><em>Panel untuk Merubah Warna Template Billing</em></p></p>
+
+<table><thead>
+<tr>
+<th>Item Template</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Bg Color</td>
+<td>Digunakan untuk merubah warna latar / background template billing</td>
+</tr>
+<tr>
+<td>Header Table</td>
+<td>Digunakan untuk merubah warna header table template billing</td>
+</tr>
+<tr>
+<td>Footer Color</td>
+<td>Digunakan untuk merubah warna bagian bawah template billing</td>
+</tr>
+</tbody></table>
+
+<ul>
+<li>Pada window color picker pilih warna yang diinginkan</li>
+</ul>
+
+<p><img src="images/fasbil33.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Window Color Picker</em></p></p>
+
+<ul>
+<li>Klik <strong>Save Template</strong> apabila telah selesai melakukan perubahan warna</li>
+</ul>
+
+<p><img src="images/fasbil34.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Template Billing yang Sudah Diedit</em></p></p>
+
+<h3 id="recurrence-billing-status">Recurrence Billing Status</h3>
+
+<p>Merupakan menu untuk menampilkan rincian daftar semua transaksi billing yang bersifat recurring / berulang berikut dengan statusnya ataupun mengubah transaksi billing tersebut. Pencarian data billing dapat dilakukan menggunakan filtering berdasarkan semua kolom maupun filtering menggunakan filtering tambahan yang terdapat di bagian atas tabel.</p>
+
+<p><b><u>Langkah-langkah menampilkan data transaksi recurrence billing</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Recurrence Billing Status</strong> pada panel menu sebelah kiri</li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Show Entries</td>
+<td>Pilih jumlah record/baris data billing yang ingin ditampilkan dalam tampilan 1 halaman</td>
+</tr>
+<tr>
+<td>Recipient</td>
+<td>Isi untuk memfilter data billing berdasarkan nama penerima billing</td>
+</tr>
+<tr>
+<td>Start Time</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal dimulainya tagihan billing</td>
+</tr>
+<tr>
+<td>End Time</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal berakhirnya tagihan billing</td>
+</tr>
+<tr>
+<td>Next Billing</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal diterbitkannya tagihan billing berikutnya</td>
+</tr>
+<tr>
+<td>Value</td>
+<td>Isi untuk memfilter data billing berdasarkan jumlah amount billing</td>
+</tr>
+<tr>
+<td>Active</td>
+<td>Pilih untuk memfilter data billing berdasarkan aktif atau tidaknya tagihan billing</td>
+</tr>
+<tr>
+<td>Previous</td>
+<td>Klik untuk menuju halaman sebelumnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Next</td>
+<td>Klik untuk menuju halaman berikutnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Nomor Halaman</td>
+<td>Klik untuk menuju halaman record data billing berdasarkan nomor yang dipilih [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil35.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Recurrence Billing Status</em></p></p>
+
+<ul>
+<li>Setelah melakukan filtering berdasarkan kriteria yang ditentukan klik pada transaksi yang diinginkan untuk memunculkan jendela <strong>Billing Details</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Item</td>
+<td>Berisi informasi nama item barang</td>
+</tr>
+<tr>
+<td>Price</td>
+<td>Berisi informasi harga item barang</td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td>Berisi informasi qty item barang</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>Berisi informasi total amount tansaksi billing</td>
+</tr>
+<tr>
+<td>Recipient ID</td>
+<td>Berisi informasi nomor ID penerima billing</td>
+</tr>
+<tr>
+<td>Will be Sent</td>
+<td>Berisi informasi tanggal pengiriman tagihan billing</td>
+</tr>
+<tr>
+<td>Value</td>
+<td>Berisi informasi nilai amount transaksi billing</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Berisi informasi status transaksi billing</td>
+</tr>
+<tr>
+<td>Edit</td>
+<td>Tombol untuk mengedit transaksi billing</td>
+</tr>
+<tr>
+<td>Stop</td>
+<td>Tombol untuk menghentikan perubahan dan mengabaikan perubahan yang sudah dilakukan</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil36.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Detail Billing</em></p></p>
+
+<p><b><u>Langkah-langkah mengedit data transaksi billing</u></b></p>
+
+<ul>
+<li>Klik tombol <strong>Edit</strong> untuk merubah data item billing kemudian klik tombol <strong>Save</strong> untuk menyimpan perubahan data billing</li>
+<li>Klik tombol <strong>Add Item</strong> untuk menambah item billing baru kemudian isi data sesuai transaksi billing. klik tombol <strong>Save</strong> untuk menyimpan perubahan data billing</li>
+</ul>
+
+<p><img src="images/fasbil37.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Edit Detail Billing</em></p></p>
+
+<h3 id="scheduled-billing-status">Scheduled Billing Status</h3>
+
+<p>Merupakan menu untuk menampilkan rincian daftar semua transaksi billing yang sudah dijadwalkan pengiriman tagihannya berikut dengan statusnya ataupun mengubah transaksi billing tersebut. Pencarian data billing dapat dilakukan menggunakan filtering berdasarkan semua kolom maupun filtering menggunakan filtering tambahan yang terdapat di bagian atas tabel. </p>
+
+<p><b><u>Langkah-langkah menampilkan data transaksi scheduled billing</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Scheduled Billing Status</strong> pada panel menu sebelah kiri</li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Show Entries</td>
+<td>Pilih jumlah record/baris data billing yang ingin ditampilkan dalam tampilan 1 halaman</td>
+</tr>
+<tr>
+<td>Recipient</td>
+<td>Isi untuk memfilter data billing berdasarkan nama penerima billing</td>
+</tr>
+<tr>
+<td>Post Date</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal dikirimkannya tagihan billing</td>
+</tr>
+<tr>
+<td>Value</td>
+<td>Isi untuk memfilter data billing berdasarkan jumlah amount billing</td>
+</tr>
+<tr>
+<td>Active</td>
+<td>Pilih untuk memfilter data billing berdasarkan aktif atau tidaknya tagihan billing</td>
+</tr>
+<tr>
+<td>Previous</td>
+<td>Klik untuk menuju halaman sebelumnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Next</td>
+<td>Klik untuk menuju halaman berikutnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Nomor Halaman</td>
+<td>Klik untuk menuju halaman record data billing berdasarkan nomor yang dipilih [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil38.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Scheduled Billing Status</em></p></p>
+
+<ul>
+<li>Setelah melakukan filtering berdasarkan kriteria yang ditentukan klik pada transaksi yang diinginkan untuk memunculkan jendela <strong>Billing Details</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Item</td>
+<td>Berisi informasi nama item barang</td>
+</tr>
+<tr>
+<td>Price</td>
+<td>Berisi informasi harga item barang</td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td>Berisi informasi qty item barang</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>Berisi informasi total amount tansaksi billing</td>
+</tr>
+<tr>
+<td>Recipient ID</td>
+<td>Berisi informasi nomor ID penerima billing</td>
+</tr>
+<tr>
+<td>Will be Sent</td>
+<td>Berisi informasi tanggal pengiriman tagihan billing</td>
+</tr>
+<tr>
+<td>Value</td>
+<td>Berisi informasi nilai amount transaksi billing</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>Berisi informasi judul tagihan billing</td>
+</tr>
+<tr>
+<td>Language</td>
+<td>Berisi informasi bahasa yang digunakan pada tagihan billing</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Berisi informasi status transaksi billing</td>
+</tr>
+<tr>
+<td>Edit</td>
+<td>Tombol untuk mengedit transaksi billing</td>
+</tr>
+<tr>
+<td>Delete</td>
+<td>Tombol untuk menghapus data transaksi billing</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil39.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Detail Billing</em></p></p>
+
+<p><b><u>Langkah-langkah mengedit data transaksi billing</u></b></p>
+
+<ul>
+<li>Klik tombol <strong>Edit</strong> untuk merubah data item billing kemudian klik tombol <strong>Save</strong> untuk menyimpan perubahan data billing</li>
+<li>Klik tombol <strong>Add Item</strong> untuk menambah item billing baru kemudian isi data sesuai transaksi billing. klik tombol <strong>Save</strong> untuk menyimpan perubahan data billing</li>
+</ul>
+
+<p><img src="images/fasbil40.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Edit Detail Billing</em></p></p>
+
+<h3 id="report">Report</h3>
+
+<p>Merupakan menu untuk menampilkan rincian daftar semua transaksi billing yang sudah dibuat dalam bentuk tampilan report. Pencarian data billing dapat dilakukan menggunakan filtering berdasarkan semua kolom maupun filtering menggunakan filtering tambahan yang terdapat di bagian atas tabel.</p>
+
+<p><b><u>Langkah-langkah menampilkan data transaksi billing</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Report</strong> pada panel menu sebelah kiri</li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Show Entries</td>
+<td>Pilih jumlah record/baris data billing yang ingin ditampilkan dalam tampilan 1 halaman</td>
+</tr>
+<tr>
+<td>Filter by Date</td>
+<td>Pilih untuk menampilkan data billing dalam range tanggal yang ditentukan berdasarkan kriteria Bill Date, Due Date dan Send Date</td>
+</tr>
+<tr>
+<td>Billing Number</td>
+<td>Isi untuk memfilter data billing berdasarkan nomor billing</td>
+</tr>
+<tr>
+<td>Recipient</td>
+<td>Isi untuk memfilter data billing berdasarkan nama penerima billing</td>
+</tr>
+<tr>
+<td>Billing Date</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal billing</td>
+</tr>
+<tr>
+<td>Due Date</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal jatuh tempo billing</td>
+</tr>
+<tr>
+<td>Value</td>
+<td>Isi untuk memfilter data billing berdasarkan jumlah amount billing</td>
+</tr>
+<tr>
+<td>Send Date</td>
+<td>Isi untuk memfilter data billing berdasarkan tanggal pengiriman billing</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Isi untuk memfilter data billing berdasarkan status transaksi billing. Terdapat 3 status transaksi billing yaitu : Paid (sudah dibayar), Unsettled (belum dibayar) dan Expired (belum dibayar namun sudah melebihi batas tanggal jatuh tempo)</td>
+</tr>
+<tr>
+<td>Previous</td>
+<td>Klik untuk menuju halaman sebelumnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Next</td>
+<td>Klik untuk menuju halaman berikutnya pada record data billing [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Nomor Halaman</td>
+<td>Klik untuk menuju halaman record data billing berdasarkan nomor yang dipilih [Jika tedapat lebih dari 1 halaman record]</td>
+</tr>
+<tr>
+<td>Print</td>
+<td>Tombol untuk menampilkan report dalam bentuk halaman yang siap cetak</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/fasbil41.png" alt="Image of fasbil" />
+<p align="center"><em>Tampilan Halaman Report Billing</em></p></p>
+
+<h3 id="setting">Setting</h3>
+
+<p>Merupakan menu untuk melakukan pengaturan-pengaturan yang berkaitan dengan merchant/penerbit billing. </p>
+
+<p><b><u>Langkah-langkah melakukan setting</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Setting</strong> pada panel menu sebelah kiri</li>
+<li>Ubah pengaturan sesuai dengan yang diinginkan oleh merchant kemudian klik <strong>Save Setting</strong> untuk menyimpan perubahan.</li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Your Logo</td>
+<td>Menampilkan tampilan logo merchant yang sedang digunakan</td>
+</tr>
+<tr>
+<td>Browse</td>
+<td>Klik untuk mengubah logo dengan mencari gambar yang terdapat di komputer<br><b>Note:</b><br>Max File Size      : 1000 kb<br>Max File Width  : 640 px<br>Max File Height : 480 px</td>
+</tr>
+<tr>
+<td>Phone Number</td>
+<td>Isi dengan nomor telepon merchant</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>Isi dengan alamat email merchant</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>Isi dengan alamat lengkap merchant</td>
+</tr>
+<tr>
+<td>Invoice Subject</td>
+<td>Isi dengan judul yang akan ditampilkan pada email tagihan billing</td>
+</tr>
+</tbody></table>
+
+<h1 id="faspay-express">Faspay Express</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Faspay adalah online payment gateway yang menyediakan kemudahan untuk merchant dalam transaksi online. Faspay memberikan kemudahan dalam berbagai jenis pembayaran salah satunya adalah dengan Faspay Express. Faspay Express merupakan salah satu produk Faspay yang memberi kemudahan kepada merchant untuk membuat dan mengolah data transaksi billing. Untuk dapat mengunakan layanan Faspay Express terlebih dahulu dilakukan proses integrasi. Komunikasi antara system merchant dengan system Faspay menggunakan metode POST data. Untuk halaman pembayaran akan diredirect ke halaman Faspay.</p>
+
+<p>Faspay billing sudah terintegrasi dengan berbagai jenis pembayaran, diantaranya :
+* Kartu Kredit
+* Transfer Bank / POS
+* Internet Banking
+* E-Wallet</p>
+
+<p><b><u>Flow Billing Transaction</u></b></p>
+
+<p><img src="images/fasex1.png" alt="Image of fasex" />
+<p align="center"><em>Flow Transaksi Faspay Express</em></p></p>
+
+<p>Pada Faspay pengelompokan transaksi dibedakan menjadi 2 tipe flow transaksi berdasarkan payment channel yaitu : </p>
+
+<p><b>One Step Transaction</b></p>
+
+<p>Jenis pembayaran di faspay yang dilakukan end to end (1 siklus) selesai di halaman yang sama dan dapat diselesaikan saat itu juga. Setelah pembeli selesai melakukan pembayaran di web Faspay, pembeli akan diredirect kembali ke halaman merchant.
+Pada one step transaction pembeli akan memberikan data pada halaman web merchant dan pembeli akan di redirect dari halaman web merchant ke halaman Faspay kemudian Faspay akan me redirect / mengarahkan pembeli ke halaman payment channel yang dipilih kemudian customer masukkan data / login (jika diperlukan) dan melakukan pembayaran pada payment channel yang dipilih. Setelah transaksi selesai channel transaksi akan memberikan notifikasi ke Faspay dan akan di informasikan ke pembeli apakah transaksi sukses atau gagal.</p>
+
+<p><img src="images/fasex2.png" alt="Image of fasex" />
+<p align="center"><em>Flow One Step Transaction</em></p></p>
+
+<p><b>Two Step Transaction</b></p>
+
+<p>Jenis pembayaran yang diarahkan ke halaman Faspay untuk tata cara pembayaran dan pembeli tidak di redirect ke halaman pembayaran secara langsung. Transaksi bisa melalui media lain misal lewat ATM atau handset untuk pembayarannya. Pada two step transaction pembeli  akan memberikan data pada halaman web merchant setelah itu pembeli akan di redirect dari halaman web merchant ke halaman Faspay. Halaman Faspay akan menampilkan pilihan payment channel yang dapat dipilih pembeli. Sistem akan menunggu pembeli menyelesaikan pembayaran yang dilakukan terpisah. Faspay akan menerima notifikasi pembayaran dari channel transaksi dan memberikan informasi notifikasi ke pembeli apakah transaksi sukses atau gagal.</p>
+
+<p><img src="images/fasex3.png" alt="Image of fasex" />
+<p align="center"><em>Flow Two Step Transaction</em></p></p>
+
+<p><b><u>Table Payment Channel Faspay</u></b></p>
+
+<table><thead>
+<tr>
+<th>One Step Transaction</th>
+<th>Two Step Transaction</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>TCash Web Checkout (302)</td>
+<td>XLTunai (303)</td>
+</tr>
+<tr>
+<td>Mandiri Ecash (305)</td>
+<td>BBM Money (308)</td>
+</tr>
+<tr>
+<td>Indosat Dompetku (307)</td>
+<td>BRIMoCash (400)</td>
+</tr>
+<tr>
+<td>BRI ePay (401)</td>
+<td>Permata Virtual Account (402)</td>
+</tr>
+<tr>
+<td>Permata Net (402)</td>
+<td>BII Mobile Banking (407)</td>
+</tr>
+<tr>
+<td>Mandiri Clickpay (406)</td>
+<td>BII Virtual Account (408)</td>
+</tr>
+<tr>
+<td>Credit Card (500), untuk CC dijelaskan di dokumen terpisah</td>
+<td>VA BCA (702)</td>
+</tr>
+<tr>
+<td>Danamon Online Banking (701)</td>
+<td>ATM Mandiri (703)</td>
+</tr>
+<tr>
+<td></td>
+<td>Indomaret Payment point (706)</td>
+</tr>
+<tr>
+<td></td>
+<td>Alfagroup (707)</td>
+</tr>
+</tbody></table>
+
+<h2 id="preparation">Preparation</h2>
+
+<h3 id="sample-code">Sample Code</h3>
+
+<p>Sample code berguna untuk proses integrasi antara website merchant dengan Faspay. Sample code ini yang digunakan sistem merchant untuk berkomunikasi dengan sistem Faspay, PIC teknis merchant menggunakan sample code untuk me-redirect data yang dikirim oleh merchant ke Faspay.</p>
+
+<h3 id="response-redirect-post">Response Redirect Post</h3>
+
+<p>Response redirect adalah response yang dikirimkan Faspay atas transaksi yang sebelumnya dikirimkan merchant. Jika terdapat parameter yang  belum sesuai / nilainya salah, maka transaksi tersebut akan di reject di sistem Faspay</p>
+
+<h3 id="url-callback">URL Callback</h3>
+
+<p>URL Callback adalah response status pembayaran yang dikirimkan Faspay ke merchant. Berguna untuk menampilkan berhasil atau tidaknya pembayaran dilakukan oleh customer merchant.</p>
+
+<h2 id="integration">Integration</h2>
+
+<p>Integrasi Faspay Express memanfaatkan parameter untuk menjalankan integrasinya. Komunikasi antara sistem merchant dengan system Faspay menggunakan XML dengan melibatkan API (Application Program Interface) yang telah disediakan oleh Faspay melalui metode POST data. API pada Faspay adalah sebuah web service yang disediakan oleh Faspay dan  digunakan untuk berkomunikasi dengan sistem web merchant, dimana merchant juga akan menyediakan API untuk bisa saling berkomunikasi dengan Faspay misalkan Faspay mengirimkan status pembayaran / payment melalui API, kemudian API merchant  menerima dan proses sebaliknya. Faspay mendukung integrasi dengan merchant yang ingin mengaplikasikan payment channel. Proses integrasi Faspay Express dibagi menjadi 4 langkah yaitu :</p>
+
+<p><b>POST</b></p>
+
+<p>Saat customer konfirmasi checkout dari website merchant, merchant akan melakukan post data XML ke server Faspay dan akan di response oleh Faspay berupa XML response yang berisi informasi TRX_ID (ID transaksi).</p>
+
+<p><b>REDIRECT</b></p>
+
+<p>Setelah menerima XML response dari Faspay dan TRX_ID transaksi, kemudian merchant melakukan kembali redirect ke URL Faspay yang disertai dengan query string.</p>
+
+<p><b>PAYMENT NOTIFICATION</b></p>
+
+<p>Setelah proses redirect dan pembeli sudah melakukan pembayaran, server Faspay akan mengirimkan XML data berisi status payment terakhir (payment notification) ke server merchant. Merchant harus menyediakan 1 URL untuk menerima xml status transaksi dari Faspay</p>
+
+<p><b>CALLBACK</b></p>
+
+<p>Merchant harus menyediakan 1 URL untuk proses callback dan thank you page yang akan di kirimkan oleh Faspay ke merchant setelah transaksi selesai (pembeli selesai melakukan pembayaran).</p>
+
+<p><img src="images/fasex4.png" alt="Image of fasex" />
+<p align="center"><em>Alur Integrasi Faspay Express</em></p></p>
+
+<h3 id="post-data">Post Data</h3>
+
+<p>Proses ini digunakan untuk melihat mengirimkan data transaksi dari merchant ke Faspay. Proses post data ini dilakukan saat merchant request parameter dan kemudian Faspay akan merespon permintaan tersebut.</p>
+
+<h4 id="url-endpoint-post-data">URL Endpoint Post Data</h4>
+
+<p>URL Endpoint ini digunakan sebagai URL balikan yang akan memproses data yang di post dari system merchant. Terdapat 2 URL yang perlu digunakan yaitu Production dan Development. Untuk pelaksanaan testing atau UAT dapat menggunakan URL development.</p>
+
+<table><thead>
+<tr>
+<th>Production</th>
+<th>Development</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code class="prettyprint">https://xpress.faspay.co.id/payment</code></td>
+<td><code class="prettyprint">https://dev.faspay.co.id/xpress/payment</code></td>
+</tr>
+</tbody></table>
+
+<h4 id="xml-request-parameter-post-data">XML Request Parameter Post Data</h4>
+
+<blockquote>
+<p>Code XML Request Post Data</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code>$products = array(
+        array(
+            'product'   =&gt; 'Bunga', 
+            'qty'       =&gt; 1, 
+            'amount'    =&gt; 450000           
+        ),
+        array(
+            'product'   =&gt; 'Coklat', 
+            'qty'       =&gt; 2, 
+            'amount'    =&gt; 500000
+        )
+    );
+    $signature = sha1(md5($this-&gt;merchant_user.$this-&gt;merchant_password.$bill_no));
+
+    foreach($products as $rprod =&gt; $fprod){ $bill_total += ($fprod["amount"] * $fprod["qty"]); }
+    $data = serialize($products);
+    $encoded = htmlentities($data);
+
+    $post = array(
+        "merchant_id"           =&gt; $this-&gt;merchant_id,
+        "merchant_name"     =&gt; $this-&gt;merchant_name,
+        "order_id"          =&gt; $bill_no,
+        "order_reff"            =&gt; $bill_no,                  
+        "bill_date"         =&gt; date("Y-m-d H:i:s"),
+        "bill_expired"          =&gt; date("Y-m-d H:i:s", strtotime("+1 day")),
+        "bill_gross"            =&gt; $bill_total, 
+        "bill_miscfee"          =&gt; '0',
+        "bill_total"            =&gt; $bill_total,
+        "bill_desc"         =&gt; 'Pembelian barang',
+        "custNo"            =&gt; '01',
+        "custName"          =&gt; 'Periyanto',
+        "custPhone"         =&gt; '085881130118',
+        "custEmail"         =&gt; 'periyanto@mediaindonusa.com',
+        "billingAddress"            =&gt; 'Jl. Pintu Air Raya No 2A',
+        "billingState"          =&gt; 'Indonesia',
+        "billingCity"           =&gt; 'Jakarta Pusat',
+        "billingRegion"         =&gt; 'DKI Jakarta',
+        "billingPostcode"           =&gt; '10710',
+        "billingCountryCode"        =&gt; 'ID',
+        "receiver_name"         =&gt; 'Saya',
+        "shippingAddress"       =&gt; 'Jl. Pintu Air Raya No 2A',
+        "shippingState"         =&gt; 'Indonesia',
+        "shippingCity"          =&gt; 'Jakarta Pusat',
+        "shippingRegion"            =&gt; 'DKI JAKARTA',
+        "shippingPostCode"      =&gt; '10710',
+        "klik_pay_code"         =&gt; $this-&gt;klikpay_code,
+        "clear_key"         =&gt; $this-&gt;clear_key,
+        "server"                =&gt; $this-&gt;server,
+        "mixed"             =&gt; 0,
+        "mid_full"          =&gt; '100001',
+        "mid_tiga_bulan"            =&gt; '100003',
+        "mid_enam_bulan"        =&gt; '100006',
+        "mid_duabelas_bulan"        =&gt; '100012',
+        "mid_duaempat_bulan"        =&gt; '100024',
+        "cicilan_enam_bulan"        =&gt; 1,
+        "cicilan_tiga_bulan"        =&gt; 1,
+        "cicilan_duabelas_bulan"        =&gt; 1,
+        "cicilan_duaempat_bulan"        =&gt; 1,
+        "products"          =&gt; $encoded,
+        "signature"         =&gt; $signature,
+        "term_condition"            =&gt; 1,
+    );
+</code></pre>
+<p>XML request parameter merupakan parameter-parameter yang harus disediakan oleh system merchant untuk dapat integrasi post data dengan system Faspay.</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Merchant_id</td>
+<td>Numeric (5)</td>
+<td>Mandatory</td>
+<td>Merchant Code From Faspay = BOI</td>
+</tr>
+<tr>
+<td>Merchant_name</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Merchant Name</td>
+</tr>
+<tr>
+<td>order_id</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order Number</td>
+</tr>
+<tr>
+<td>order_reff</td>
+<td>Alfanumeric (32)</td>
+<td>Optional</td>
+<td>Booking Number/reffrence (can fill same with order no)</td>
+</tr>
+<tr>
+<td>bill_date</td>
+<td>Datetime YYYY-MM-DD HH:MM:SS</td>
+<td>Mandatory</td>
+<td>Transaction/Order Date</td>
+</tr>
+<tr>
+<td>bill_expired</td>
+<td>Datetime YYYY-MM-DD HH:MM:SS</td>
+<td>Mandatory</td>
+<td>Payment Expiring Date</td>
+</tr>
+<tr>
+<td>bill_desc</td>
+<td>Alfanumeric (128)</td>
+<td>Mandatory</td>
+<td>Transaction Description</td>
+</tr>
+<tr>
+<td>bill_gross</td>
+<td>Numeric</td>
+<td>Optional</td>
+<td>Order Nominal without tax</td>
+</tr>
+<tr>
+<td>bill_miscfee</td>
+<td>Numeric</td>
+<td>Optional</td>
+<td>Miscellaneous fee</td>
+</tr>
+<tr>
+<td>bill_total</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>Total Nominal</td>
+</tr>
+<tr>
+<td>custNo</td>
+<td>Alfanumeric (32)</td>
+<td>Optional</td>
+<td>Customer Number</td>
+</tr>
+<tr>
+<td>custName</td>
+<td>Alfanumeric (32)</td>
+<td>Optional</td>
+<td>Customer Name</td>
+</tr>
+<tr>
+<td>cust_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Customer Number</td>
+</tr>
+<tr>
+<td>cust_name</td>
+<td>Alfanumeric (32)</td>
+<td>Optional</td>
+<td>Customer Name</td>
+</tr>
+<tr>
+<td>custPhone</td>
+<td>Numeric</td>
+<td>Optional</td>
+<td>Customer Mobile Phone</td>
+</tr>
+<tr>
+<td>custEmail</td>
+<td>Alfanumeric (128)</td>
+<td>Mandatory</td>
+<td>Email</td>
+</tr>
+<tr>
+<td>billingAddress</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Billing Address</td>
+</tr>
+<tr>
+<td>billingCity</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Billing City</td>
+</tr>
+<tr>
+<td>BillingRegion</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Billing Addres Region</td>
+</tr>
+<tr>
+<td>billingState</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Billing Address State</td>
+</tr>
+<tr>
+<td>billingPoscode</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Billing Address PosCode</td>
+</tr>
+<tr>
+<td>billingCountryCode</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Billing Address Country Code</td>
+</tr>
+<tr>
+<td>receiver_name</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Receiver Name</td>
+</tr>
+<tr>
+<td>shippingAddress</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Shipping Address</td>
+</tr>
+<tr>
+<td>shippingCity</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Shipping Address City</td>
+</tr>
+<tr>
+<td>shippingRegion</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Shipping Address Region</td>
+</tr>
+<tr>
+<td>shippingState</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Shipping Address State</td>
+</tr>
+<tr>
+<td>shippingPostcode</td>
+<td>Alfanumeric</td>
+<td>Optional</td>
+<td>Shipping AddressPosCode</td>
+</tr>
+<tr>
+<td>klikpay_code</td>
+<td>Alfanumeric (16)</td>
+<td>Optional</td>
+<td>BCA KlikPay Klikpay Code</td>
+</tr>
+<tr>
+<td>clear_key</td>
+<td>Alfanumeric (9)</td>
+<td>Optional</td>
+<td>BCA KlikPay ClearKey</td>
+</tr>
+<tr>
+<td>Mixed</td>
+<td>Numeric (1)</td>
+<td>Optional</td>
+<td>BCA KlikPay Mixed (Full &amp; Installment On This Payment) (1=True , 0=False)</td>
+</tr>
+<tr>
+<td>mid_full</td>
+<td>Numeric (6)</td>
+<td>Optional</td>
+<td>Merchant Id Full</td>
+</tr>
+<tr>
+<td>mid_tiga_bulan</td>
+<td>Numeric (6)</td>
+<td>Optional</td>
+<td>Merchant Id 3 Months</td>
+</tr>
+<tr>
+<td>mid_enam_bulan</td>
+<td>Numeric (6)</td>
+<td>Optional</td>
+<td>Merchant Id 6 Months</td>
+</tr>
+<tr>
+<td>mid_duabelas_bulan</td>
+<td>Numeric (6)</td>
+<td>Optional</td>
+<td>Merchant Id 12 Months</td>
+</tr>
+<tr>
+<td>mid_duaempat_bulan</td>
+<td>Numeric (6)</td>
+<td>Optional</td>
+<td>Merchant Id 24 Months</td>
+</tr>
+<tr>
+<td>cicilan_tiga_bulan</td>
+<td>Boolean</td>
+<td>Optional</td>
+<td>Installment 3 Months (1=True , 0=False)</td>
+</tr>
+<tr>
+<td>cicilan_enam_bulan</td>
+<td>Boolean</td>
+<td>Optional</td>
+<td>Installment 6 Months (1=True , 0=False)</td>
+</tr>
+<tr>
+<td>cicilan_duabelas_bulan</td>
+<td>Boolean</td>
+<td>Optional</td>
+<td>Installment 12 Months (1=True , 0=False)</td>
+</tr>
+<tr>
+<td>cicilan_duaempat_bulan</td>
+<td>Boolean</td>
+<td>Optional</td>
+<td>Installment 24 Months (1=True , 0=False)</td>
+</tr>
+<tr>
+<td>Products</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Items</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>Alfanumeric (100)</td>
+<td>Mandatory</td>
+<td>sha1(md5(user_id merchant + password merchant + bill_no + bill_total))</td>
+</tr>
+<tr>
+<td>term_condition</td>
+<td>Numeric (1)</td>
+<td>Mandatory</td>
+<td>Active Term and Conditions (1=True , 0=False)</td>
+</tr>
+</tbody></table>
+
+<h3 id="inquiry-payment-status">Inquiry Payment Status</h3>
+
+<p>Inquiry payment status merupakan proses pengecekan status pembayaran dari Faspay. Merchant sebelumnya harus sudah melakukan post redirect URL ke Faspay.</p>
+
+<h4 id="url-endpoint-inquiry-payment-status">URL Endpoint Inquiry Payment Status</h4>
+
+<p>URL Endpoint ini digunakan sebagai URL balikan yang akan memproses data yang di inquiry dari system merchant. Terdapat 2 URL yang perlu digunakan yaitu Production dan Development. Untuk pelaksanaan testing atau UAT dapat menggunakan URL development.</p>
+
+<table><thead>
+<tr>
+<th>Production</th>
+<th>Development</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code class="prettyprint">https://web.faspay.co.id/pws/100004/383xx00010100000</code></td>
+<td><code class="prettyprint">http://dev.faspay.co.id/pws/100004/183xx00010100000</code></td>
+</tr>
+</tbody></table>
+
+<h4 id="xml-request-parameter-inquiry-payment-status">XML Request Parameter Inquiry Payment Status</h4>
+
+<blockquote>
+<p>Code XML Request Inquiry Payment Status</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+<span class="nt">&lt;request&gt;</span>Inquiry Status Payment<span class="nt">&lt;/request&gt;</span>
+<span class="nt">&lt;trx_id&gt;</span>3100440033666278<span class="nt">&lt;/trx_id&gt;</span>
+<span class="nt">&lt;merchant_id&gt;</span>31004<span class="nt">&lt;/merchant_id&gt;</span>
+<span class="nt">&lt;bill_no&gt;</span>31004001<span class="nt">&lt;/bill_no&gt;</span>
+<span class="nt">&lt;signature&gt;</span>be8791ac5f10bb042834896598bfc6bb9aadcbf9<span class="nt">&lt;/signature&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<p>XML request parameter inquiry payment status merupakan parameter-parameter yang harus disediakan oleh system merchant untuk dapat melakukan inquiry payment status ke system Faspay.</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Request</td>
+<td>Alfanumeric (50)</td>
+<td>Optional</td>
+<td>Request Description</td>
+</tr>
+<tr>
+<td>trx_id</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>merchant_id</td>
+<td>Numeric (5)</td>
+<td>Mandatory</td>
+<td>Merchant Code</td>
+</tr>
+<tr>
+<td>Merchant</td>
+<td>Alfanumeric (32)</td>
+<td>Optional</td>
+<td>Merchant Name</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order Number</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>Alfanumeric</td>
+<td>Mandatory</td>
+<td>sha1(md5(user_id+password+bill_no))</td>
+</tr>
+</tbody></table>
+
+<h4 id="xml-response-parameter-inquiry-payment-status">XML Response Parameter Inquiry Payment Status</h4>
+
+<blockquote>
+<p>Code XML Request Inquiry Payment Status</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="nt">&lt;faspay&gt;</span>
+    <span class="nt">&lt;response&gt;</span>Inquiry Status Payment<span class="nt">&lt;/response&gt;</span> 
+    <span class="nt">&lt;trx_id&gt;</span>3100440033666278<span class="nt">&lt;/trx_id&gt;</span>
+    <span class="nt">&lt;merchant_id&gt;</span>31004<span class="nt">&lt;/merchant_id&gt;</span>
+    <span class="nt">&lt;merchant&gt;</span>GONLA<span class="nt">&lt;/merchant&gt;</span>
+    <span class="nt">&lt;bill_no&gt;</span>31004001<span class="nt">&lt;/bill_no&gt;</span>
+    <span class="nt">&lt;payment_trx_id&gt;&lt;/payment_trx_id&gt;</span>
+    <span class="nt">&lt;payment_date&gt;&lt;/payment_date&gt;</span>
+    <span class="nt">&lt;payment_status_code&gt;</span>0<span class="nt">&lt;/payment_status_code&gt;</span>
+    <span class="nt">&lt;payment_status_desc&gt;</span>Belum diproses<span class="nt">&lt;/payment_status_desc&gt;</span>
+    <span class="nt">&lt;response_code&gt;</span>00<span class="nt">&lt;/response_code&gt;</span>
+    <span class="nt">&lt;response_desc&gt;</span>Sukses<span class="nt">&lt;/response_desc&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<p>Response parameter merupakan parameter-parameter yang akan dikirimkan oleh system Faspay sebagai respon atas request parameter yang sudah dikirimkan oleh system merchant. Jika ada parameter yang  belum sesuai / nilainya salah maka transaksi tersebut akan di reject di sistem Faspay.</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Response</td>
+<td>Alfanumeric (50)</td>
+<td>Optional</td>
+<td>Response Name</td>
+</tr>
+<tr>
+<td>trx_id</td>
+<td>Alfanumeric (16)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>Merchant_id</td>
+<td>Numeric (6)</td>
+<td>Mandatory</td>
+<td>Merchant Code</td>
+</tr>
+<tr>
+<td>Merchant</td>
+<td>Alfanumeric (32)</td>
+<td>Optional</td>
+<td>Merchant Name</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order Number</td>
+</tr>
+<tr>
+<td>payment_trx_id</td>
+<td>Alfanumeric (16)</td>
+<td>Mandatory</td>
+<td>Payment Reff (from Payment Channel)</td>
+</tr>
+<tr>
+<td>payment_date</td>
+<td>Date</td>
+<td>Mandatory</td>
+<td>Payment Date (from Payment Channel)</td>
+</tr>
+<tr>
+<td>payment_status_code</td>
+<td>Numeric (1)</td>
+<td>Mandatory</td>
+<td>Kode Status<br>0    Belum diproses<br>1 Dalam proses<br>2   Payment Sukses<br>4 Payment Reserval<br>8   Payment Cancelled<br>9  Unknown</td>
+</tr>
+<tr>
+<td>payment_status_desc</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Description Status</td>
+</tr>
+<tr>
+<td>response_code</td>
+<td>Alfanumeric (2)</td>
+<td>Mandatory</td>
+<td>Response Code<br>00   Success</td>
+</tr>
+<tr>
+<td>response_desc</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Response Description</td>
+</tr>
+</tbody></table>
+
+<h3 id="cancel-transaction">Cancel Transaction</h3>
+
+<p>Merupakan proses untuk melakukan pengecekan apabila terdapat transaksi yang dibatalkan. Pengecekan dilakukan dengan POST xml ke system Faspay. </p>
+
+<h4 id="url-endpoint-cancel-transaction">URL Endpoint Cancel Transaction</h4>
+
+<p>URL Endpoint ini digunakan sebagai URL balikan yang akan memproses data yang di inquiry dari system merchant. Terdapat 2 URL yang perlu digunakan yaitu Production dan Development. Untuk pelaksanaan testing atau UAT dapat menggunakan URL development.</p>
+
+<table><thead>
+<tr>
+<th>Production</th>
+<th>Development</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code class="prettyprint">https://faspay.mediaindonusa.com/pws/100005/383xx00010100000</code></td>
+<td><code class="prettyprint">http://faspaydev.mediaindonusa.com/pws/100005/183xx00010100000</code></td>
+</tr>
+</tbody></table>
+
+<h4 id="xml-request-parameter-cancel-transaction">XML Request Parameter Cancel Transaction</h4>
+
+<blockquote>
+<p>Code XML Request Inquiry Cancel Transaction</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+<span class="nt">&lt;request&gt;</span>Canceling Payment<span class="nt">&lt;/request&gt;</span>
+<span class="nt">&lt;trx_id&gt;</span>3100440033666278<span class="nt">&lt;/trx_id&gt;</span>
+<span class="nt">&lt;merchant_id&gt;</span>31004<span class="nt">&lt;/merchant_id&gt;</span>
+<span class="nt">&lt;merchant&gt;</span>GONLA<span class="nt">&lt;/merchant&gt;</span>
+<span class="nt">&lt;bill_no&gt;</span>31004001<span class="nt">&lt;/bill_no&gt;</span>
+<span class="nt">&lt;payment_cancel&gt;</span>Barang Habis<span class="nt">&lt;/payment_cancel&gt;</span>
+<span class="nt">&lt;signature&gt;</span>be8791ac5f10bb042834896598bfc6bb9aadcbf9<span class="nt">&lt;/signature&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<p>XML request parameter cancel transaction merupakan parameter-parameter yang harus disediakan oleh system merchant untuk dapat melakukan inquiry cancel transaction ke system Faspay.</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Request</td>
+<td>Alfanumeric (50)</td>
+<td>Optional</td>
+<td>Request Description</td>
+</tr>
+<tr>
+<td>trx_id</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>merchant_id</td>
+<td>Numeric (5)</td>
+<td>Mandatory</td>
+<td>Merchant Code</td>
+</tr>
+<tr>
+<td>Merchant</td>
+<td>Alfanumeric (32)</td>
+<td>Optional</td>
+<td>Merchant Name</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order Number</td>
+</tr>
+<tr>
+<td>payment_cancel</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Cancellation Description</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>Alfanumeric</td>
+<td>Mandatory</td>
+<td>sha1(md5(user_id+password+bill_no))</td>
+</tr>
+</tbody></table>
+
+<h4 id="xml-response-parameter-inquiry-cancel-transaction">XML Response Parameter Inquiry Cancel Transaction</h4>
+
+<blockquote>
+<p>Code XML Response Inquiry Cancel Transaction</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="nt">&lt;faspay&gt;</span>
+    <span class="nt">&lt;response&gt;</span>Canceling Payment<span class="nt">&lt;/response&gt;</span>
+    <span class="nt">&lt;trx_id&gt;</span>3100440033666278<span class="nt">&lt;/trx_id&gt;</span>
+    <span class="nt">&lt;merchant_id&gt;</span>31004<span class="nt">&lt;/merchant_id&gt;</span>
+    <span class="nt">&lt;merchant&gt;</span>GONLA<span class="nt">&lt;/merchant&gt;</span>
+    <span class="nt">&lt;bill_no&gt;</span>31004001<span class="nt">&lt;/bill_no&gt;</span>
+    <span class="nt">&lt;trx_status_code&gt;</span>2<span class="nt">&lt;/trx_status_code&gt;</span>
+    <span class="nt">&lt;trx_status_desc&gt;</span>Order Canceled<span class="nt">&lt;/trx_status_desc&gt;</span>
+    <span class="nt">&lt;payment_status_code&gt;</span>8<span class="nt">&lt;/payment_status_code&gt;</span>
+    <span class="nt">&lt;payment_status_desc&gt;</span>Payment Cancelled<span class="nt">&lt;/payment_status_desc&gt;</span>
+    <span class="nt">&lt;payment_cancel_date&gt;&lt;/payment_cancel_date&gt;</span>
+    <span class="nt">&lt;payment_cancel&gt;</span>Barang Habis<span class="nt">&lt;/payment_cancel&gt;</span>
+    <span class="nt">&lt;response_code&gt;</span>00<span class="nt">&lt;/response_code&gt;</span>
+    <span class="nt">&lt;response_desc&gt;</span>Sukses<span class="nt">&lt;/response_desc&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<p>Response parameter merupakan parameter-parameter yang akan dikirimkan oleh system Faspay sebagai respon atas request parameter yang sudah dikirimkan oleh system merchant. Jika ada parameter yang  belum sesuai / nilainya salah maka transaksi tersebut akan di reject di sistem Faspay.</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Response</td>
+<td>Alfanumeric (50)</td>
+<td>Optional</td>
+<td>Response Name</td>
+</tr>
+<tr>
+<td>trx_id</td>
+<td>Alfanumeric (16)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>Merchant_id</td>
+<td>Numeric (5)</td>
+<td>Mandatory</td>
+<td>Merchant Code</td>
+</tr>
+<tr>
+<td>Merchant</td>
+<td>Alfanumeric (32)</td>
+<td>Optional</td>
+<td>Merchant Name</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order Number</td>
+</tr>
+<tr>
+<td>trx_status_code</td>
+<td>Numeric (1)</td>
+<td>Mandatory</td>
+<td>Transaction Status</td>
+</tr>
+<tr>
+<td>trx_status_desc</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Transaction Status Description</td>
+</tr>
+<tr>
+<td>payment_status_code</td>
+<td>Numeric (1)</td>
+<td>Mandatory</td>
+<td>Payment status code</td>
+</tr>
+<tr>
+<td>payment_status_desc</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Payment Status Description</td>
+</tr>
+<tr>
+<td>payment_cancel_msg</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Payment Cancel Reason&rsquo;s Message</td>
+</tr>
+<tr>
+<td>payment_cancel_date</td>
+<td>Datetime</td>
+<td>Mandatory</td>
+<td>Payment Cancel Date</td>
+</tr>
+<tr>
+<td>response_code</td>
+<td>Alfanumeric (2)</td>
+<td>Mandatory</td>
+<td>Response Code<br>00   Success</td>
+</tr>
+<tr>
+<td>response_desc</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Response Description</td>
+</tr>
+</tbody></table>
+
+<h3 id="payment-notification">Payment Notification</h3>
+
+<p>Merupakan proses untuk mengirimkan notifikasi pembayaran dari Faspay ke merchant. Payment notifikasi dikirim melalui URL merchant yang sebelumnya sudah disiapkan, yaitu URL untuk menerima hit notifikasi transaksi. Faspay akan mengirim response payment notif sebanyak 3 kali.</p>
+
+<h4 id="url-endpoint-payment-notification">URL Endpoint Payment Notification</h4>
+
+<p>URL Endpoint ini digunakan sebagai URL balikan yang akan memproses data yang di inquiry dari system merchant. Terdapat 2 URL yang perlu digunakan yaitu Production dan Development. Untuk pelaksanaan testing atau UAT dapat menggunakan URL development.</p>
+
+<p><b><u>URL Endpoint</u></b></p>
+
+<p align = 'center'>URL – Merchant    : http(s)://Merchant>/api</p>
+
+<h4 id="xml-request-parameter-payment-notification">XML Request Parameter Payment Notification</h4>
+
+<blockquote>
+<p>Code XML Request Inquiry Payment Notification</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+<span class="nt">&lt;request&gt;</span>Payment Notification<span class="nt">&lt;/request&gt;</span>
+<span class="nt">&lt;trx_id&gt;</span>111222<span class="nt">&lt;/trx_id&gt;</span>
+<span class="nt">&lt;merchant_id&gt;</span>111111<span class="nt">&lt;/merchant_id&gt;</span>
+<span class="nt">&lt;merchant&gt;</span>ABC, PT<span class="nt">&lt;/merchant&gt;</span>
+<span class="nt">&lt;bill_no&gt;</span>12345678<span class="nt">&lt;/bill_no&gt;</span>
+<span class="nt">&lt;payment_reff&gt;</span>1234567<span class="nt">&lt;/payment_reff&gt;</span>
+<span class="nt">&lt;payment_date&gt;</span>2012-01-01 15:17:30<span class="nt">&lt;/payment_date&gt;</span>
+<span class="nt">&lt;payment_status_code&gt;&lt;/payment_status_code&gt;</span>
+<span class="nt">&lt;payment_status_desc&gt;</span>Description status<span class="nt">&lt;/payment_status_desc&gt;</span>
+<span class="nt">&lt;signature&gt;</span>Description status<span class="nt">&lt;/signature&gt;</span>
+<span class="nt">&lt;amount&gt;</span>100000<span class="nt">&lt;/amount&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<p>XML request parameter payment notification merupakan parameter-parameter yang dikirimkan Faspay ke merchant untuk inquiry payment notification.</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Request</td>
+<td>Alfanumeric (50)</td>
+<td>Optional</td>
+<td>Request Name</td>
+</tr>
+<tr>
+<td>trx_id</td>
+<td>Alfanumeric (16)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>merchant_id</td>
+<td>Numeric (5)</td>
+<td>Mandatory</td>
+<td>Merchant Code</td>
+</tr>
+<tr>
+<td>Merchant</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Merchant Name</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order Number</td>
+</tr>
+<tr>
+<td>payment_reff</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>would be fill if the payment has been made</td>
+</tr>
+<tr>
+<td>Payment_date</td>
+<td>Datetime YYYY-MM-DD HH:MM:SS</td>
+<td>Mandatory</td>
+<td>customer payment date would be fill if the payment has been made</td>
+</tr>
+<tr>
+<td>payment_status_code</td>
+<td>Char (1)</td>
+<td>Mandatory</td>
+<td>Payment Status<br>0    Belum diproses<br>1 Dalam proses<br>2   Payment Sukses<br>3 Payment Gagal<br>4  Payment Reversal<br>7   Payment Expired<br>8    Payment Cancelled<br>9  Unknown</td>
+</tr>
+<tr>
+<td>payment_status_desc</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Payment description</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>Alfanumeric</td>
+<td>Mandatory</td>
+<td>Sha1(md5(user_id+password + bill_no + payment_status_code))</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>amount (only if the system is using Open Amount method - VA Permata [402])</td>
+</tr>
+</tbody></table>
+
+<h4 id="xml-response-parameter-inquiry-payment-notification">XML Response Parameter Inquiry Payment Notification</h4>
+
+<blockquote>
+<p>Code XML Response Inquiry Payment Notification</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+<span class="nt">&lt;response&gt;</span>Payment Notification<span class="nt">&lt;/response&gt;</span>
+<span class="nt">&lt;trx_id&gt;</span>111222<span class="nt">&lt;/trx_id&gt;</span>
+<span class="nt">&lt;merchant_id&gt;</span>111111<span class="nt">&lt;/merchant_id&gt;</span>
+<span class="nt">&lt;bill_no&gt;&lt;/bill_no&gt;</span>
+<span class="nt">&lt;response_code&gt;</span>00<span class="nt">&lt;/response_code&gt;</span>
+<span class="nt">&lt;response_desc&gt;</span>Sukses<span class="nt">&lt;/response_desc&gt;</span>
+<span class="nt">&lt;response_date&gt;</span>2012-01-01 15:17:30<span class="nt">&lt;/response_date&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<p>Response parameter merupakan parameter-parameter yang akan dikirimkan oleh system Faspay sebagai respon atas request parameter yang sudah dikirimkan oleh system merchant. Jika ada parameter yang  belum sesuai / nilainya salah maka transaksi tersebut akan di reject di sistem Faspay.</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>trx_id</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>Merchant_id</td>
+<td>Numeric (15)</td>
+<td>Mandatory</td>
+<td>Channel Code From Faspay</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order Number</td>
+</tr>
+<tr>
+<td>response_code</td>
+<td>Alfanumeric (2)</td>
+<td>Mandatory</td>
+<td>Response code</td>
+</tr>
+<tr>
+<td>response_desc</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Response Description</td>
+</tr>
+<tr>
+<td>response_date</td>
+<td>Datetime</td>
+<td>Mandatory</td>
+<td>Response date</td>
+</tr>
+</tbody></table>
+
+<h3 id="url-callback">URL Callback</h3>
+
+<p>URL Callback ini merupakan proses jika transaksi merchant sudah selesai dibayar oleh pelanggan dan merchant sudah mendapatkan notifikasi status transaksi. Selanjutnya pihak bank (payment channel) akan otomatis meredirect ke URL callback merchant untuk menginformasikan bahwa transaksi sudah selesai. URL callback di provide oleh merchant.</p>
+
+<p><b><u>Contoh URL merchant yang di hit oleh Faspay</u></b></p>
+
+<p><code class="prettyprint">http(s)://[theMerchantUrl]?merchant_id=111111&amp;bill_no=12345678&amp;trx_id=000123456789&amp;bill_reff=222222&amp;bill_amount=20000&amp;payment_reff=RB1234567890&amp;payment_date=2012-02-04 14:30:54&amp;bank_user_name= AL*****NO&amp;status=2</code></p>
+
+<h4 id="xml-request-parameter-url-notification">XML Request Parameter URL Notification</h4>
+
+<p>XML request parameter URL notification merupakan parameter-parameter yang dikirimkan Faspay ke merchant untuk inquiry URL notification.</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>merchant_id</td>
+<td>Numeric (15)</td>
+<td>Mandatory</td>
+<td>Merchant Code</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order Number</td>
+</tr>
+<tr>
+<td>Request</td>
+<td>Alfanumeric (50)</td>
+<td>Optional</td>
+<td>Request Name</td>
+</tr>
+<tr>
+<td>trx_id</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>bill_reff</td>
+<td>Alfanumeric (20)</td>
+<td>Mandatory</td>
+<td>bill_refference</td>
+</tr>
+<tr>
+<td>bill_total</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>bill_total</td>
+</tr>
+<tr>
+<td>payment_reff</td>
+<td>Alfanumeric (16)</td>
+<td>Mandatory</td>
+<td>Payment reference</td>
+</tr>
+<tr>
+<td>Payment_date</td>
+<td>Datetime</td>
+<td>Mandatory</td>
+<td>Payment date</td>
+</tr>
+<tr>
+<td>bank_user_name</td>
+<td>Alfanumeric (40)</td>
+<td>Mandatory</td>
+<td>Channel customer name</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Char (1)</td>
+<td>Mandatory</td>
+<td>Payment Status<br>0 Belum diproses<br>1 Dalam proses<br>2   Payment Sukses<br>3 Payment Gagal<br>4  Payment Reversal<br>7   Payment Expired<br>8    Payment Cancelled<br>9  Unknown</td>
+</tr>
+</tbody></table>
+
+<h2 id="reference">Reference</h2>
+
+<p>Pada bagian ini akan dijelaskan mengenai referensi pendukung untuk memudahkan pemahaman dalam melakukan setting maupun integrasi dengan Faspay.</p>
+
+<table><thead>
+<tr>
+<th>Istilah</th>
+<th>Penjelasan</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>URL<br>Unifrom Resource Locator</td>
+<td>merupakan rangkaian karakter menurut format standar tertentu, digunakan untuk menunjukan alamat dari suatu sumber misalnya seperti dokumen, file dan gambar yang terdapat di internet.<br>contoh : www.faspay.co.id / www.google.co.id</td>
+</tr>
+<tr>
+<td>XML</td>
+<td>Adalah suatu bahasa yang digunakan untuk menyimpan data (tidak ada program), atau bisa dikatakan XML adalah sebuah bentuk format data.  XML mendeskripsikan susunan informasi dan berisikan kode-kode berupa tanda-tanda tertentu dengan aturan tertentu untuk memformat data / dokumen</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>Adalah suatu metode yang digunakan pada pembuatan aplikasi web yang digunakan untuk mengirimkan value variabel ke halaman lain atau mengirimkan ke database.<br><u>Bedanya dengan GET :</u> Method POST lebih cocok untuk pengiriman variabel yang membutuhkan pengamanan, misalnya halaman login ataupun halaman yang restrict ataupun perlu pengamanan lebih.</td>
+</tr>
+<tr>
+<td>REDIRECT</td>
+<td>adalah proses mengarahkan URL ke Link Website / alamat lain secara otomatis.</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>Adalah suatu metode yang digunakan pada pembuatan aplikasi web yang digunakan untuk mengirimkan value variabel ke halaman lain atau mengirimkan ke database.<br><u>Bedanya dengan POST :</u> Nama dan nilai variabel akan ditampilkan di address URL browser. Method GET lebih cocok untung pengiriman variabel argument yang panjang, serta tidak membutuhkan keamanan lebih.</td>
+</tr>
+<tr>
+<td>API<br>(Application Programming Interface)</td>
+<td>adalah sekumpulan perintah, fungsi, dan protokol yang dapat digunakan oleh programmer saat membangun perangkat lunak untuk sistem operasi tertentu. API memungkinkan programmer untuk menggunakan fungsi standar untuk berinteraksi dengan sistem operasi lain.</td>
+</tr>
+<tr>
+<td>Query String</td>
+<td>merupakan satu cara untuk kita menyimpan sesuatu nilai variable di dalam URL.<br>Contohnya : www.tutorialmelayu.com/index.php?variable1=nilai1. Dalam contoh ini, kita menyimpan nilai1 di dalam variable bernama variable1</td>
+</tr>
+</tbody></table>
+
+<h4 id="status-response-code">Status Response Code</h4>
+
+<p>Referensi ini menampilkan berbagai status response code yang dikirimkan dari system Faspay berikut dengan penjelasannya. </p>
+
+<table><thead>
+<tr>
+<th>host_rep_code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>00</td>
+<td>Sukses</td>
+</tr>
+<tr>
+<td>03</td>
+<td>Invalid Merchant</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Invalid Amount</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Invalid Order</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Order Cancelled by Merchant/Customer</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Invalid Customer or MSISDN is not found</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Subscription is Expired</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Format Error</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Requested Function not Supported</td>
+</tr>
+<tr>
+<td>54</td>
+<td>Order is Expired</td>
+</tr>
+<tr>
+<td>55</td>
+<td>Incorrect User/Password</td>
+</tr>
+<tr>
+<td>63</td>
+<td>Security Violation (from unknown IP-Address)</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Not Active / Suspended</td>
+</tr>
+<tr>
+<td>66</td>
+<td>internal Error</td>
+</tr>
+<tr>
+<td>80</td>
+<td>Payment Was Reversal</td>
+</tr>
+<tr>
+<td>81</td>
+<td>Already Been Paid</td>
+</tr>
+<tr>
+<td>82</td>
+<td>Unregistered Entity</td>
+</tr>
+<tr>
+<td>83</td>
+<td>Parameter is mandatory</td>
+</tr>
+<tr>
+<td>84</td>
+<td>Unregistered Parameters</td>
+</tr>
+<tr>
+<td>85</td>
+<td>Insufficient Paramaters</td>
+</tr>
+<tr>
+<td>96</td>
+<td>System Malfunction</td>
+</tr>
+</tbody></table>
+
+<h4 id="payment-channel-code">Payment Channel Code</h4>
+
+<p>Referensi ini menampilkan berbagai kode payment channel yang support dengan Faspay berikut dengan penjelasannya.</p>
+
+<table><thead>
+<tr>
+<th>Kode Payment Channel</th>
+<th>Payment Channel</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>302</td>
+<td>tcash token</td>
+<td>Telkomsel tCash WebCheckout</td>
+</tr>
+<tr>
+<td>303</td>
+<td>xl tunai</td>
+<td>XL Tunai (e-Wallet)</td>
+</tr>
+<tr>
+<td>305</td>
+<td>eMoney</td>
+<td>Mandiri eMoney</td>
+</tr>
+<tr>
+<td>307</td>
+<td>Dompetku</td>
+<td>Indosat Dompetku (e-Wallet)</td>
+</tr>
+<tr>
+<td>308</td>
+<td>Bbmmoney</td>
+<td>BBM Money</td>
+</tr>
+<tr>
+<td>400</td>
+<td>bri_mocash</td>
+<td>BRI mobile banking</td>
+</tr>
+<tr>
+<td>401</td>
+<td>bri_epay</td>
+<td>BRI e-Commerce Payment</td>
+</tr>
+<tr>
+<td>402</td>
+<td>permata</td>
+<td>Permata – all channel (atm, internet/sms/mobile banking)</td>
+</tr>
+<tr>
+<td>405</td>
+<td>Klikpaybca</td>
+<td>BCA e-commerce</td>
+</tr>
+<tr>
+<td>406</td>
+<td>clickpay mandiri</td>
+<td>Mandiri e-Commerce</td>
+</tr>
+<tr>
+<td>407</td>
+<td>bii_sms</td>
+<td>SMS Banking BII</td>
+</tr>
+<tr>
+<td>408</td>
+<td>bii_va</td>
+<td>Virtual Account BII</td>
+</tr>
+<tr>
+<td>500</td>
+<td>kartu kredit</td>
+<td>Kartu Kredit</td>
+</tr>
+<tr>
+<td>700</td>
+<td>cimb_clicks</td>
+<td>CIMB Clicks</td>
+</tr>
+<tr>
+<td>701</td>
+<td>danamon debit online</td>
+<td>Danamon Debit Online</td>
+</tr>
+<tr>
+<td>702</td>
+<td>BCA VA</td>
+<td>Virtual Account BCA</td>
+</tr>
+<tr>
+<td>703</td>
+<td>ATM Mandiri</td>
+<td>ATM channel Mandiri</td>
+</tr>
+</tbody></table>
 
       </div>
       <div class="dark-box">
