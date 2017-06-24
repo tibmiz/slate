@@ -219,13 +219,17 @@
       <div id="toc">
       </div>
         <ul class="toc-footer">
-            <li><a href='https://www.faspay.co.id/'>Documentation Powered by Faspay</a></li>
+            <li><a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a></li>
         </ul>
     </div>
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
-        <h1 id="faspay-business">Faspay Business</h1>
+        <h1 id="introduction">Introduction</h1>
+
+<p><a href='https://www.faspay.co.id'><strong>FASPAY</strong></a> adalah penyedia online payment gateway yang membantu dan memberi solusi kepada online merchant untuk mempermudah proses pembayaran. Tujuan utama Faspay adalah memungkinkan merchant untuk menerima semua jenis pembayaran dalam bentuk apapun yang mereka inginkan baik itu pembayaran melalui platform transaksi debit maupun transaksi menggunakan kartu kredit</p>
+
+<h1 id="faspay-business">Faspay Business</h1>
 
 <h2 id="debit">Debit</h2>
 
@@ -590,7 +594,7 @@ Pada one step transaction pembeli akan memberikan data pada halaman web merchant
 <tr>
 <td>Redirect</td>
 <td>Setelah merchant mendapatkan response data dari Faspay.</td>
-<td>Merchant redirect post ke URL Permata :<br>URL – Development :<br><code class="prettyprint">http://faspaydev.mediaindonusa.com/permatanet/payment</code><br>URL Production  :<br><code class="prettyprint">http://faspay.mediaindonusa.com/permatanet/payment</code></td>
+<td>Merchant redirect post ke URL Permata :<br>URL – Development :<br><code class="prettyprint">http://dev.faspay.co.id/permatanet/payment</code><br>URL Production :<br><code class="prettyprint">http://web.faspay.co.id/permatanet/payment</code></td>
 </tr>
 <tr>
 <td>Payment Notification</td>
@@ -648,8 +652,8 @@ Merchant harus menyediakan 1 URL untuk proses callback dan thank you page yang a
 </tr>
 </thead><tbody>
 <tr>
-<td><code class="prettyprint">https://faspay.mediaindonusa.com/pws/100001/382xx00010100000</code></td>
-<td><code class="prettyprint">http://faspaydev.mediaindonusa.com/pws/100001/182xx00010100000</code></td>
+<td><code class="prettyprint">https://web.faspay.co.id/pws/100001/382xx00010100000</code></td>
+<td><code class="prettyprint">http://dev.faspay.co.id/pws/100001/182xx00010100000</code></td>
 </tr>
 </tbody></table>
 
@@ -805,8 +809,8 @@ merchant_id&gt;31019<span class="nt">&lt;/merchant_id&gt;</span>
 </tr>
 </thead><tbody>
 <tr>
-<td><code class="prettyprint">https://faspay.mediaindonusa.com/pws/300002/383xx00010100000</code></td>
-<td><code class="prettyprint">http://faspaydev.mediaindonusa.com/pws/300002/183xx00010100000</code></td>
+<td><code class="prettyprint">https://web.faspay.co.id/pws/300002/383xx00010100000</code></td>
+<td><code class="prettyprint">http://dev.faspay.co.id/pws/300002/183xx00010100000</code></td>
 </tr>
 </tbody></table>
 
@@ -1266,8 +1270,8 @@ merchant_id&gt;31019<span class="nt">&lt;/merchant_id&gt;</span>
 </tr>
 </thead><tbody>
 <tr>
-<td><code class="prettyprint">https://faspay.mediaindonusa.com/pws/100003/2830000010100000/&lt;sign&gt;?queryString</code></td>
-<td><code class="prettyprint">https://faspay.mediaindonusa.com/pws/100003/2830000010100000/&lt;sign&gt;?queryString</code></td>
+<td><code class="prettyprint">https://web.faspay.co.id/pws/100003/2830000010100000/&lt;sign&gt;?queryString</code></td>
+<td><code class="prettyprint">https://dev.faspay.co.id/pws/100003/2830000010100000/&lt;sign&gt;?queryString</code></td>
 </tr>
 </tbody></table>
 
@@ -1311,7 +1315,7 @@ merchant_id&gt;31019<span class="nt">&lt;/merchant_id&gt;</span>
 
 <aside class="notice">
 <b>Contoh hit redirect ke URL faspay dari merchant :</b> <br>
-<i><u>http://faspayDev/pws/100003/0830000010100000/e0ba1b2dc29ab4cb4221df092f44b1c4e6f45c63?trx_id=3100440033666278&merchant_id=31004&bill_no=31004001</i></u>
+<i><u>http://dev.faspay.co.id/pws/100003/0830000010100000/e0ba1b2dc29ab4cb4221df092f44b1c4e6f45c63?trx_id=3100440033666278&merchant_id=31004&bill_no=31004001</i></u>
 </aside>
 
 <h4 id="inquiry-payment-status">Inquiry Payment Status</h4>
@@ -1329,8 +1333,8 @@ merchant_id&gt;31019<span class="nt">&lt;/merchant_id&gt;</span>
 </tr>
 </thead><tbody>
 <tr>
-<td><code class="prettyprint">https://faspay.mediaindonusa.com/pws/100004/383xx00010100000</code></td>
-<td><code class="prettyprint">http://faspaydev.mediaindonusa.com/pws/100004/183xx00010100000</code></td>
+<td><code class="prettyprint">https://web.faspay.co.id/pws/100004/383xx00010100000</code></td>
+<td><code class="prettyprint">http://dev.faspay.co.id/pws/100004/183xx00010100000</code></td>
 </tr>
 </tbody></table>
 
@@ -1508,8 +1512,8 @@ merchant_id&gt;31019<span class="nt">&lt;/merchant_id&gt;</span>
 </tr>
 </thead><tbody>
 <tr>
-<td><code class="prettyprint">https://faspay.mediaindonusa.com/pws/100004/383xx00010100000</code></td>
-<td><code class="prettyprint">http://faspaydev.mediaindonusa.com/pws/100004/183xx00010100000</code></td>
+<td><code class="prettyprint">https://web.faspay.co.id/pws/100004/383xx00010100000</code></td>
+<td><code class="prettyprint">http://dev.faspay.co.id/pws/100004/183xx00010100000</code></td>
 </tr>
 </tbody></table>
 
@@ -1949,17 +1953,17 @@ merchant_id&gt;31019<span class="nt">&lt;/merchant_id&gt;</span>
 <p>Pada redirect BCA KlikPay setelah server merchant post data ke Faspay dan Faspay mengirim response ke merchant maka server merchant akan langsung di redirect ke BCA KlikPay.</p>
 
 <p><b><u>URL Redirect BCA</b></u><br>
-<p align='center'><code class="prettyprint">http://faspaydev.mediaindonusa.com/redirectbca</code></p></p>
+<p align='center'><code class="prettyprint">http://dev.faspay.co.id/redirectbca</code></p></p>
 
 <p><img src="images/debit11.png" alt="Image of debit" />
 <p align="center"><em>Setelah merchant post data maka akan langsung redirect ke BCA KlikPay</em></p></p>
 
-<h5 id="xml-parameter-redirect-bca-klikpay">XML Parameter Redirect BCA KlikPay</h5>
+<h5 id="parameter-redirect-bca-klikpay">Parameter Redirect BCA KlikPay</h5>
 
 <blockquote>
-<p>Code XML Integrasi BCA KlikPay</p>
+<p>Code PHP Integrasi BCA KlikPay</p>
 </blockquote>
-<pre class="highlight xml tab-xml"><code>$string = '<span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">"post"</span> <span class="na">name=</span><span class="s">"form"</span> <span class="na">action=</span><span class="s">" http://faspaydev.mediaindonusa.com/redirectbca "</span><span class="nt">&gt;</span>';
+<pre class="highlight php tab-php"><code>$string = '<span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">"post"</span> <span class="na">name=</span><span class="s">"form"</span> <span class="na">action=</span><span class="s">" http://faspaydev.mediaindonusa.com/redirectbca "</span><span class="nt">&gt;</span>';
 
 $post = http_build_query(array(
         "klikPayCode"   =&gt; $rst['boi_code'],
@@ -1979,7 +1983,7 @@ if ($post != null) {
                   }
         }
     $string .= '<span class="nt">&lt;/form&gt;</span>';
-    $string .= '<span class="nt">&lt;script&gt;</span> document.form.submit();<span class="nt">&lt;/script&gt;</span>';
+    $string .= '<span class="nt">&lt;script&gt;</span> <span class="nb">document</span><span class="p">.</span><span class="nx">form</span><span class="p">.</span><span class="nx">submit</span><span class="p">();</span><span class="nt">&lt;/script&gt;</span>';
 
     echo $string;   
 exit;
@@ -2059,9 +2063,9 @@ exit;
 <h5 id="signature-authkey">Signature &amp; Authkey</h5>
 
 <blockquote>
-<p>Code XML Signature &amp; authkey BCA KlikPay</p>
+<p>Code PHP Signature &amp; authkey BCA KlikPay</p>
 </blockquote>
-<pre class="highlight xml tab-xml"><code>private function genKeyId($clearKey) {
+<pre class="highlight php tab-php"><code>private function genKeyId($clearKey) {
         return strtoupper(bin2hex($this-&gt;str2bin($clearKey)));
 
 
@@ -2138,14 +2142,14 @@ private function intval32bits($value) {
         if ($value &gt; 2147483647)
             $value = ($value - 4294967296);
         else if ($value <span class="nt">&lt; -2147483648</span><span class="err">)</span>
-        <span class="err">$</span><span class="na">value =</span> <span class="s">($value</span> <span class="err">+</span> <span class="err">4294967296);</span>
-         <span class="err">return</span> <span class="err">$value;</span>
+        <span class="err">$</span><span class="na">value =</span><span class="err"> </span><span class="s">($value</span> <span class="err">+</span> <span class="na">4294967296</span><span class="err">);</span>
+         <span class="na">return</span> <span class="err">$</span><span class="na">value</span><span class="err">;</span>
      <span class="err">}</span>
 
-    <span class="err">private</span> <span class="err">function</span> <span class="err">getHash($value)</span> <span class="err">{</span>
-        <span class="err">$</span><span class="na">h =</span> <span class="s">0;</span>
-        <span class="err">for</span> <span class="err">($</span><span class="na">i =</span> <span class="s">0;$i</span> <span class="err">&lt;</span> <span class="err">strlen($value);$i++)</span> <span class="err">{</span>
-            <span class="err">$</span><span class="na">h =</span> <span class="s">$this-</span><span class="nt">&gt;</span>intval32bits($this-&gt;add31T($h) + ord($value{$i}));
+    <span class="na">private</span> <span class="na">function</span> <span class="na">getHash</span><span class="err">($</span><span class="na">value</span><span class="err">)</span> <span class="err">{</span>
+        <span class="err">$</span><span class="na">h =</span><span class="err"> </span><span class="s">0;</span>
+        <span class="na">for</span> <span class="err">($</span><span class="na">i =</span><span class="err"> </span><span class="s">0;$i</span> <span class="err">&lt;</span> <span class="na">strlen</span><span class="err">($</span><span class="na">value</span><span class="err">);$</span><span class="na">i</span><span class="err">++)</span> <span class="err">{</span>
+            <span class="err">$</span><span class="na">h =</span><span class="err"> </span><span class="s">$this-</span><span class="nt">&gt;</span>intval32bits($this-&gt;add31T($h) + ord($value{$i}));
         }
         return $h;
     }
@@ -2173,13 +2177,17 @@ private function intval32bits($value) {
 
 <h3 id="integration-with-ecommerce-web-template-cms">Integration With eCommerce Web Template / CMS</h3>
 
-<p>Pada bagian ini akan dijelaskan bagaimana integrasi antara web template eCommerce dengan system Faspay. Untuk merchant yang menggunakan web template, Faspay akan memberikan file plugin yang harus di copy atau diinstall oleh merchant, untuk saat ini Faspay sudah menyediakan beberapa plugin untuk beberapa web template eCommerce diantaranya :
-* Magento
-* OpenCart
-* Prestashop
-* WooCommerce
-* Dan beberapa web template lainnya (on progress). 
-Plugin dapat di copy maupun di install ke direktori folder web plugin yang digunakan merchant. Khusus untuk web plugin WooCommerce &amp; Prestashop, plugin yang kami berikan harus di install manual dari web admin.</p>
+<p>Pada bagian ini akan dijelaskan bagaimana integrasi antara web template eCommerce dengan system Faspay. Untuk merchant yang menggunakan web template, Faspay akan memberikan file plugin yang harus di copy atau diinstall oleh merchant, untuk saat ini Faspay sudah menyediakan beberapa plugin untuk beberapa web template eCommerce diantaranya :</p>
+
+<ul>
+<li>Magento</li>
+<li>OpenCart</li>
+<li>Prestashop</li>
+<li>WooCommerce</li>
+<li>Dan beberapa web template lainnya (on progress). </li>
+</ul>
+
+<p>Plugin dapat di copy maupun di install ke direktori folder web plugin yang digunakan merchant. Khusus untuk web plugin WooCommerce &amp; Prestashop, plugin yang kami berikan harus di install manual dari web admin.</p>
 
 <h4 id="magento">Magento</h4>
 
@@ -2345,6 +2353,888 @@ after try catch
 <p><img src="images/debit32.png" alt="Image of debit" />
 <p align="center"><em>Tampilan Input Data Konfigurasi dan Payment Channel</em></p></p>
 
+<h3 id="features">Features</h3>
+
+<p>Pada bagian ini akan dijelaskan mengenai fitur tambahan yang dimiliki Faspay pada transaksi debit.</p>
+
+<h4 id="static-transaction">Static Transaction</h4>
+
+<p>Pada static transaction proses integrasinya berbeda dengan flow transaksi standar, dimana pada static transaction TRX ID / Transaction ID static dapat dibayar berkali-kali. Untuk static transaction merchant diizinkan menggunakan 10 digit transaction ID dan merchant harus menyiapkan 1 URL tambahan untuk inquiry dan paymentnya. Pada proses ini sistem akan melakukan inquiry URL sebanyak 2 kali, yaitu :</p>
+
+<p><b>Inquiry Transaction</b></p>
+
+<p>Pada step ini customer menginput transaction ID pada channel (misal. ATM atau Internet Banking) dan jika customer mengklik &ldquo;NEXT&rdquo; atau &ldquo;LANJUTKAN&rdquo; Faspay akan mengakses URL inquiry merchant untuk mengecek transaction ID tersebut ada atau tidak pada merchant dan merchant akan mengirim respon inquiry ke Faspay dan pada tampilan UI customer akan terlihat detail transaksi tersebut.</p>
+
+<p><b>Inquiry Payment</b></p>
+
+<p>Setelah customer mengecek transaction ID dan melanjutkan ke pembayaran, faspay akan inquiry payment melalui URL inquiry merchant untuk memberikan informasi transaksi yang sudah dibayar oleh customer dimana nilai amount tersebut sama (untuk tipe close amount) atau nilai amount tersebut berbeda (untuk tipe open amount) dengan nilai amount transaksi. Merchant akan merespon balik ke Faspay bahwa transaksi tersebut disetujui atau ditolak dari sisi merchant. Jika transaksi ditolak oleh merchant, tampilan UI customer akan menampilkan bahwa transaksi tersebut failed, dan jika transaksi tersebut disetujui oleh merchant, tampilan UI customer akan menampilkan transaksi tersebut sukses.</p>
+
+<p><img src="images/debit33.PNG" alt="Image of debit" />
+<img src="images/debit34.PNG" alt="Image of debit" />
+<p align="center"><em>Payment Channel List Debit Static Transaction</em></p></p>
+
+<p><img src="images/debit35.PNG" alt="Image of debit" />
+<p align="center"><em>Cara Kerja Static Transaction</em></p></p>
+
+<aside class="notice">
+For channel : VA Mandiri, VA Danamon, VA Maybank merhcant must be use 8 digit for transaction, because this channel gave 8 prefix transaction from bank
+</aside>
+
+<p><img src="images/debit36.PNG" alt="Image of debit" />
+<p align="center"><em>Flow Process Static Transaction</em></p></p>
+
+<h5 id="request-parameter-inquiry-transaction">Request Parameter Inquiry Transaction</h5>
+
+<p><b><u>URL Merchant</u></b></p>
+
+<p align='center'>http://url_merchant/va_static/signature?type=inquiry</p>
+
+<p>Request : QueryString
+Method  : Http Get</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>VA</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Virtual Account Number</td>
+</tr>
+<tr>
+<td>signature</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Request Description. Signature inquiry = sha1(md5($user_id.$password.$va_number));</td>
+</tr>
+<tr>
+<td>type</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Type = inquiry</td>
+</tr>
+</tbody></table>
+
+<p><b>Example :</b></p>
+
+<p><code class="prettyprint">http://url_merchant/8641162021000007/d5f91b5fe05f6d2b186c78356b96af355db410ad?type=inquiry</code></p>
+
+<h5 id="response-parameter-inquiry-transaction">Response Parameter Inquiry Transaction</h5>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>response</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>VA Static Response</td>
+</tr>
+<tr>
+<td>VA_number</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Virtual Account Number</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>Amount</td>
+</tr>
+<tr>
+<td>cust_number</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Nomor ID Customer</td>
+</tr>
+<tr>
+<td>response_code</td>
+<td>Char (2)</td>
+<td>Mandatory</td>
+<td>00 = sukses<br>01 = gagal</td>
+</tr>
+</tbody></table>
+
+<h5 id="request-parameter-inquiry-payment">Request Parameter Inquiry Payment</h5>
+
+<p><b><u>URL Merchant</u></b></p>
+
+<p align='center'>http(s)://url-merchant/va_static/signature?type=payment&trx_uid=&amount=</p>
+
+<p>Request : QueryString
+Method  : Get</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Response</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>VA Static Response</td>
+</tr>
+<tr>
+<td>VA number</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Virtual Account Number</td>
+</tr>
+<tr>
+<td>signature</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Request Description</td>
+</tr>
+<tr>
+<td>type</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Type payment</td>
+</tr>
+<tr>
+<td>Trx_uid</td>
+<td>Alfanumeric (16)</td>
+<td>Mandatory</td>
+<td>Transaction number on faspay</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>Amount transaction</td>
+</tr>
+</tbody></table>
+
+<p><b>Example :</b></p>
+
+<p><code class="prettyprint">http://url_merchant/8641162021000007/d5f91b5fe05f6d2b186c78356b96af355db410ad?type=payment&amp;trx_uid=8985313800001073&amp;amount=10000</code></p>
+
+<h5 id="response-parameter-inquiry-payment">Response Parameter Inquiry Payment</h5>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>response</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>VA Static Response</td>
+</tr>
+<tr>
+<td>VA_number</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Virtual Account Number</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>Amount</td>
+</tr>
+<tr>
+<td>cust_number</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Request Description</td>
+</tr>
+<tr>
+<td>response_code</td>
+<td>Char (2)</td>
+<td>Mandatory</td>
+<td>00 = sukses<br>01 = gagal</td>
+</tr>
+</tbody></table>
+
+<h5 id="request-parameter-inquiry-payment-notification">Request Parameter Inquiry Payment Notification</h5>
+
+<blockquote>
+<p>Code xml Request Parameter Inquiry Payment Notification</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+    <span class="nt">&lt;request&gt;</span>Payment Notification<span class="nt">&lt;/request&gt;</span>
+    <span class="nt">&lt;trx_id&gt;</span>9999412166<span class="nt">&lt;/trx_id&gt;</span>
+    <span class="nt">&lt;merchant_id&gt;</span>99999<span class="nt">&lt;/merchant_id&gt;</span>
+    <span class="nt">&lt;merchant&gt;</span>MI Test<span class="nt">&lt;/merchant&gt;</span>
+    <span class="nt">&lt;bill_no&gt;</span>2019999901<span class="nt">&lt;/bill_no&gt;</span>
+    <span class="nt">&lt;payment_reff&gt;</span>94YGodAWEZoOwX2zUfYs<span class="nt">&lt;/payment_reff&gt;</span>
+    <span class="nt">&lt;payment_date&gt;</span>2017-02-14 15:29:10<span class="nt">&lt;/payment_date&gt;</span>
+    <span class="nt">&lt;payment_status_code&gt;</span>2<span class="nt">&lt;/payment_status_code&gt;</span>
+    <span class="nt">&lt;payment_status_desc&gt;</span>Payment Sukses<span class="nt">&lt;/payment_status_desc&gt;</span>
+<span class="nt">&lt;amount&gt;</span>10000<span class="nt">&lt;/amount&gt;</span>
+    <span class="nt">&lt;signature&gt;</span>bcfef7df46c6412d9fcb5d65efa089617245cd14<span class="nt">&lt;/signature&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<p>Faspay akan mengirimkan notifikasi ke merchant setelah transaksi di payment oleh customer</p>
+
+<p><b><u>URL Merchant</u></b></p>
+
+<p align='center'>http(s)://Merchant>/api</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>request</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Request Name</td>
+</tr>
+<tr>
+<td>trx_id</td>
+<td>Alfanumeric (16)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>merchant_id</td>
+<td>Numeric (5)</td>
+<td>Mandatory</td>
+<td>channel code yang diberikan Faspay</td>
+</tr>
+<tr>
+<td>Merchant</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Merchant Name</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order no</td>
+</tr>
+<tr>
+<td>payment_reff</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>would be fill if the payment has been made</td>
+</tr>
+<tr>
+<td>Payment_date</td>
+<td>Datetime YYYY-MM-DD HH:MM:SS</td>
+<td>Mandatory</td>
+<td>customer payment date would be fill if the payment has been made</td>
+</tr>
+<tr>
+<td>payment_status_code</td>
+<td>Char (1)</td>
+<td>Mandatory</td>
+<td>Payment Status<br>0    Belum diproses<br>1 Dalam proses<br>2   Payment Sukses<br>3 Payment Gagal<br>4  Payment Reversal<br>7   Payment Expired<br>8    Payment Cancelled<br>9  Unknown</td>
+</tr>
+<tr>
+<td>payment_status_desc</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Payment description</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>amount (only if the system is using Open Amount method - VA Permata [402])</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>Alfanumeric</td>
+<td>Mandatory</td>
+<td>Sha1(md5(user_id+password + bill_no + payment_status_code))</td>
+</tr>
+</tbody></table>
+
+<h5 id="response-parameter-inquiry-payment-notification">Response Parameter Inquiry Payment Notification</h5>
+
+<blockquote>
+<p>Code xml Response Parameter Inquiry Payment Notification</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+    <span class="nt">&lt;response&gt;</span>Payment Notification<span class="nt">&lt;/response&gt;</span>
+    <span class="nt">&lt;trx_id&gt;</span>9999412166<span class="nt">&lt;/trx_id&gt;</span>
+    <span class="nt">&lt;merchant_id&gt;</span>99999<span class="nt">&lt;/merchant_id&gt;</span>
+    <span class="nt">&lt;bill_no&gt;</span>2019999901<span class="nt">&lt;/bill_no&gt;</span>
+    <span class="nt">&lt;response_code&gt;</span>00<span class="nt">&lt;/response_code&gt;</span>
+    <span class="nt">&lt;response_desc&gt;</span>Sukses<span class="nt">&lt;/response_desc&gt;</span>
+    <span class="nt">&lt;response_date&gt;</span>2017-02-14 15:29:10<span class="nt">&lt;/response_date&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>trx_id</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>merchant_id</td>
+<td>Numeric (15)</td>
+<td>Mandatory</td>
+<td>channel code fromFaspay</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Nomor Order</td>
+</tr>
+<tr>
+<td>response_code</td>
+<td>Alfanumeric (2)</td>
+<td>Mandatory</td>
+<td>Response code</td>
+</tr>
+<tr>
+<td>response_desc</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Response description</td>
+</tr>
+<tr>
+<td>response_date</td>
+<td>datetime</td>
+<td>Mandatory</td>
+<td>Response date</td>
+</tr>
+</tbody></table>
+
+<h4 id="unicount">UNIcount</h4>
+
+<p>UNIcount adalah salah satu fitur Faspay yang digunakan pada transaction ID untuk membuat payment masuk ke dalam payment channel yang tepat sesuai dengan pilihan customer.</p>
+
+<p><img src="images/debit41.PNG" alt="Image of debit" />
+<img src="images/debit42.PNG" alt="Image of debit" />
+<p align="center"><em>UNIcount channel list</em></p></p>
+
+<p><b>Tipe Transaksi UNIcount</b></p>
+
+<p><b>Static Transaction</b></p>
+
+<p>Static transaction menggunakan flow proses yang berbeda, merchant akan generate transaksi dan menyiapkan 1 URL tambahan untuk proses inquiry transaksi dari channel (Inquiry transaction &amp; Inquiry payment) dan customer akan membayar pada channel ATM atau internet banking.</p>
+
+<p><b>Dynamic Transaction (standart flow)</b></p>
+
+<p>Dynamic transaction menggunakan flow proses standar dimana merchant melakukan POST data ke Faspay menggunakan payment channel code 410.</p>
+
+<p><b>Tipe Payment UNIcount</b></p>
+
+<p><b>Open Amount</b></p>
+
+<p>Merupakan nilai aktual amount (payment amount) yang dibayar oleh customer dapat berbeda dengan nilai amount transaksi</p>
+
+<p><b>Close Amount</b></p>
+
+<p>Merupakan nilai aktual amount (payment amount) yang dibayar oleh customer harus sama dengan nilai amount transaksi</p>
+
+<p><img src="images/debit43.PNG" alt="Image of debit" />
+<p align="center"><em>Cara Kerja UNIcount</em></p></p>
+
+<p>Untuk transaksi UNIcount, customer akan menggunakan 10 digit kode transaksi dari merchant dengan kombinasi 6 digit awalan pertama nomor dari salah satu payment channel yang digunakan untuk membayar transaksi. Ketika customer membayar transaksi menggunakan ATM atau internet banking maka mereka akan membayar menggunakan 6 digit BIN/prefix yang mereka terima dari payment channel yang dipilih diikuti dengan 10 digit nomor transaksi.</p>
+
+<h5 id="unicount-static-transaction">UNIcount - Static Transaction</h5>
+
+<p>Pada UNIcount static transaction proses integrasinya berbeda dengan flow transaksi standar, dimana untuk UNIcount static transaction merchant diizinkan menggunakan 7 digit transaction ID dan merchant harus menyiapkan 1 URL tambahan untuk inquiry dan paymentnya.</p>
+
+<p>Setelah customer melakukan transaksi di merchant dan menerima transaction ID (UNIcount), customer dapatn melakukan pembayaran di ATM atau melalui internet banking. Pada proses ini sistem akan melakukan inquiry URL sebanyak 2 kali, yaitu :</p>
+
+<p><b>Inquiry Transaction</b></p>
+
+<p>Pada step ini customer menginput transaction ID pada channel (misal. ATM atau Internet Banking) dan jika customer mengklik &ldquo;NEXT&rdquo; atau &ldquo;LANJUTKAN&rdquo; Faspay akan mengakses URL inquiry merchant untuk mengecek transaction ID tersebut ada atau tidak pada merchant dan merchant akan mengirim respon inquiry ke Faspay dan pada tampilan UI customer akan terlihat detail transaksi tersebut.</p>
+
+<p><b>Inquiry Payment</b></p>
+
+<p>Setelah customer mengecek transaction ID dan melanjutkan ke pembayaran, faspay akan inquiry payment melalui URL inquiry merchant untuk memberikan informasi transaksi yang sudah dibayar oleh customer dimana nilai amount tersebut sama (untuk tipe close amount) atau nilai amount tersebut berbeda (untuk tipe open amount) dengan nilai amount transaksi. Merchant akan merespon balik ke Faspay bahwa transaksi tersebut disetujui atau ditolak dari sisi merchant. Jika transaksi ditolak oleh merchant, tampilan UI customer akan menampilkan bahwa transaksi tersebut failed, dan jika transaksi tersebut disetujui oleh merchant, tampilan UI customer akan menampilkan transaksi tersebut sukses.</p>
+
+<p><img src="images/debit37.PNG" alt="Image of debit" />
+<p align="center"><em>Cara Kerja UNIcount - Static Transaction</em></p></p>
+
+<aside class="notice">
+For channel : VA Mandiri, VA Danamon, VA Maybank merhcant must be use 8 digit for transaction, because this channel gave 8 prefix transaction from bank
+</aside>
+
+<p><img src="images/debit38.PNG" alt="Image of debit" />
+<p align="center"><em>Flow Process UNIcount - Static Transaction</em></p></p>
+
+<h6 id="request-parameter-inquiry-transaction">Request Parameter Inquiry Transaction</h6>
+
+<p><b><u>URL Merchant</u></b></p>
+
+<p align='center'>http://url_merchant/va_static/signature?type=inquiry</p>
+
+<p>Request : QueryString
+Method  : Http Get</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>VA</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Virtual Account Number</td>
+</tr>
+<tr>
+<td>signature</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Request Description. Signature inquiry = sha1(md5($user_id.$password.$va_number));</td>
+</tr>
+<tr>
+<td>type</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Type = inquiry</td>
+</tr>
+</tbody></table>
+
+<p><b>Example :</b></p>
+
+<p><code class="prettyprint">http://url_merchant/8641162021000007/d5f91b5fe05f6d2b186c78356b96af355db410ad?type=inquiry</code></p>
+
+<h6 id="response-parameter-inquiry-transaction">Response Parameter Inquiry Transaction</h6>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+    <span class="nt">&lt;response&gt;</span>VA Static Response<span class="nt">&lt;/response&gt;</span>
+    <span class="nt">&lt;va_number&gt;</span>8641162021000007<span class="nt">&lt;/va_number&gt;</span>
+    <span class="nt">&lt;amount&gt;</span>10000<span class="nt">&lt;/amount&gt;</span>
+    <span class="nt">&lt;cust_name&gt;</span>suyanto<span class="nt">&lt;/cust_name&gt;</span>
+    <span class="nt">&lt;response_code&gt;</span>00<span class="nt">&lt;/response_code&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>response</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>VA Static Response</td>
+</tr>
+<tr>
+<td>VA_number</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Virtual Account Number</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>Amount</td>
+</tr>
+<tr>
+<td>cust_number</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Nomor ID Customer</td>
+</tr>
+<tr>
+<td>response_code</td>
+<td>Char (2)</td>
+<td>Mandatory</td>
+<td>00 = sukses<br>01 = gagal</td>
+</tr>
+</tbody></table>
+
+<h6 id="request-parameter-inquiry-payment">Request Parameter Inquiry Payment</h6>
+
+<p><b><u>URL Merchant</u></b></p>
+
+<p align='center'>http(s)://url-merchant/va_static/signature?type=payment&trx_uid=&amount=</p>
+
+<p>Request : QueryString
+Method  : Get</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Response</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>VA Static Response</td>
+</tr>
+<tr>
+<td>VA number</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Virtual Account Number</td>
+</tr>
+<tr>
+<td>signature</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Request Description</td>
+</tr>
+<tr>
+<td>type</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Type payment</td>
+</tr>
+<tr>
+<td>Trx_uid</td>
+<td>Alfanumeric (16)</td>
+<td>Mandatory</td>
+<td>Transaction number on faspay</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>Amount transaction</td>
+</tr>
+</tbody></table>
+
+<p><b>Example :</b></p>
+
+<p><code class="prettyprint">http://url_merchant/8641162021000007/d5f91b5fe05f6d2b186c78356b96af355db410ad?type=payment&amp;trx_uid=8985313800001073&amp;amount=10000</code></p>
+
+<h6 id="response-parameter-inquiry-payment">Response Parameter Inquiry Payment</h6>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+    <span class="nt">&lt;response&gt;</span>VA Static Response<span class="nt">&lt;/response&gt;</span>
+    <span class="nt">&lt;va_number&gt;</span>8641162021000007<span class="nt">&lt;/va_number&gt;</span>
+    <span class="nt">&lt;amount&gt;</span>10000<span class="nt">&lt;/amount&gt;</span>
+    <span class="nt">&lt;cust_name&gt;</span>suyanto<span class="nt">&lt;/cust_name&gt;</span>
+    <span class="nt">&lt;response_code&gt;</span>00<span class="nt">&lt;/response_code&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>response</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>VA Static Response</td>
+</tr>
+<tr>
+<td>VA_number</td>
+<td>Numeric (16)</td>
+<td>Mandatory</td>
+<td>Virtual Account Number</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>Amount</td>
+</tr>
+<tr>
+<td>cust_number</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Request Description</td>
+</tr>
+<tr>
+<td>response_code</td>
+<td>Char (2)</td>
+<td>Mandatory</td>
+<td>00 = sukses<br>01 = gagal</td>
+</tr>
+</tbody></table>
+
+<h6 id="request-parameter-inquiry-payment-notification">Request Parameter Inquiry Payment Notification</h6>
+
+<blockquote>
+<p>Code xml Request Parameter Inquiry Payment Notification</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+    <span class="nt">&lt;request&gt;</span>Payment Notification<span class="nt">&lt;/request&gt;</span>
+    <span class="nt">&lt;trx_id&gt;</span>9999412166<span class="nt">&lt;/trx_id&gt;</span>
+    <span class="nt">&lt;merchant_id&gt;</span>99999<span class="nt">&lt;/merchant_id&gt;</span>
+    <span class="nt">&lt;merchant&gt;</span>MI Test<span class="nt">&lt;/merchant&gt;</span>
+    <span class="nt">&lt;bill_no&gt;</span>2019999901<span class="nt">&lt;/bill_no&gt;</span>
+    <span class="nt">&lt;payment_reff&gt;</span>94YGodAWEZoOwX2zUfYs<span class="nt">&lt;/payment_reff&gt;</span>
+    <span class="nt">&lt;payment_date&gt;</span>2017-02-14 15:29:10<span class="nt">&lt;/payment_date&gt;</span>
+    <span class="nt">&lt;payment_status_code&gt;</span>2<span class="nt">&lt;/payment_status_code&gt;</span>
+    <span class="nt">&lt;payment_status_desc&gt;</span>Payment Sukses<span class="nt">&lt;/payment_status_desc&gt;</span>
+    <span class="nt">&lt;bill_total&gt;</span>50000<span class="nt">&lt;/bill_total&gt;</span>
+    <span class="nt">&lt;payment_total&gt;</span>50000<span class="nt">&lt;/payment_total&gt;</span>
+    <span class="nt">&lt;payment_channel_uid&gt;</span>703<span class="nt">&lt;/payment_channel_uid&gt;</span>
+    <span class="nt">&lt;payment_channel&gt;</span>ATM MANDIRI<span class="nt">&lt;/payment_channel&gt;</span>
+    <span class="nt">&lt;signature&gt;</span>bcfef7df46c6412d9fcb5d65efa089617245cd14<span class="nt">&lt;/signature&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<p>Faspay akan mengirimkan notifikasi ke merchant setelah transaksi di payment oleh customer</p>
+
+<p><b><u>URL Merchant</u></b></p>
+
+<p align='center'>http(s)://Merchant>/api</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>request</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Request Name</td>
+</tr>
+<tr>
+<td>trx_id</td>
+<td>Alfanumeric (16)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>merchant_id</td>
+<td>Numeric (5)</td>
+<td>Mandatory</td>
+<td>channel code yang diberikan Faspay</td>
+</tr>
+<tr>
+<td>Merchant</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Merchant Name</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Order no</td>
+</tr>
+<tr>
+<td>payment_reff</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>would be fill if the payment has been made</td>
+</tr>
+<tr>
+<td>Payment_date</td>
+<td>Datetime YYYY-MM-DD HH:MM:SS</td>
+<td>Mandatory</td>
+<td>customer payment date would be fill if the payment has been made</td>
+</tr>
+<tr>
+<td>payment_status_code</td>
+<td>Char (1)</td>
+<td>Mandatory</td>
+<td>Payment Status<br>0    Belum diproses<br>1 Dalam proses<br>2   Payment Sukses<br>3 Payment Gagal<br>4  Payment Reversal<br>7   Payment Expired<br>8    Payment Cancelled<br>9  Unknown</td>
+</tr>
+<tr>
+<td>payment_status_desc</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Payment description</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>Numeric</td>
+<td>Mandatory</td>
+<td>amount (only if the system is using Open Amount method - VA Permata [402])</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>Alfanumeric</td>
+<td>Mandatory</td>
+<td>Sha1(md5(user_id+password + bill_no + payment_status_code))</td>
+</tr>
+</tbody></table>
+
+<h6 id="response-parameter-inquiry-payment-notification">Response Parameter Inquiry Payment Notification</h6>
+
+<blockquote>
+<p>Code xml Response Parameter Inquiry Payment Notification</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+    <span class="nt">&lt;response&gt;</span>Payment Notification<span class="nt">&lt;/response&gt;</span>
+    <span class="nt">&lt;trx_id&gt;</span>9999412166<span class="nt">&lt;/trx_id&gt;</span>
+    <span class="nt">&lt;merchant_id&gt;</span>99999<span class="nt">&lt;/merchant_id&gt;</span>
+    <span class="nt">&lt;bill_no&gt;</span>2019999901<span class="nt">&lt;/bill_no&gt;</span>
+    <span class="nt">&lt;response_code&gt;</span>00<span class="nt">&lt;/response_code&gt;</span>
+    <span class="nt">&lt;response_desc&gt;</span>Sukses<span class="nt">&lt;/response_desc&gt;</span>
+    <span class="nt">&lt;response_date&gt;</span>2017-02-14 15:29:10<span class="nt">&lt;/response_date&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Data Type</th>
+<th>M/O/C</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>trx_id</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Transaction Id (Issued/generated by Media Indonusa) to used when make a payment in payment channel</td>
+</tr>
+<tr>
+<td>merchant_id</td>
+<td>Numeric (15)</td>
+<td>Mandatory</td>
+<td>channel code fromFaspay</td>
+</tr>
+<tr>
+<td>bill_no</td>
+<td>Alfanumeric (32)</td>
+<td>Mandatory</td>
+<td>Nomor Order</td>
+</tr>
+<tr>
+<td>response_code</td>
+<td>Alfanumeric (2)</td>
+<td>Mandatory</td>
+<td>Response code</td>
+</tr>
+<tr>
+<td>response_desc</td>
+<td>Alfanumeric (50)</td>
+<td>Mandatory</td>
+<td>Response description</td>
+</tr>
+<tr>
+<td>response_date</td>
+<td>datetime</td>
+<td>Mandatory</td>
+<td>Response date</td>
+</tr>
+</tbody></table>
+
+<h5 id="unicount-dynamic-transaction">UNIcount - Dynamic Transaction</h5>
+
+<p>Pada UNIcount dynamic transaction proses integrasinya sama dengan flow transaksi standar (POST to faspay), dimana pihak merchant akan post data transaksi ke Faspay dengan UNIcount channel code (410) dan akan mendapat 10 digit nomor transaksi. Untuk transaksi ini pembeli harus memasukkan 6 digit awalan pada channel yang telah dipilih agar bisa membayar transaksi pada channel tersebut.</p>
+
+<p><img src="images/debit39.PNG" alt="Image of debit" />
+<p align="center"><em>Cara Kerja UNIcount - Dynamic Transaction</em></p></p>
+
+<p><img src="images/debit40.PNG" alt="Image of debit" />
+<p align="center"><em>Flow Process UNIcount - Dynamic Transaction (starndart flow trnsaction)</em></p></p>
+
+<h6 id="url-endpoint-post-data">URL Endpoint Post Data</h6>
+
+<p>URL Endpoint ini digunakan sebagai URL balikan yang akan memproses data yang di post dari system merchant. Terdapat 2 URL yang perlu digunakan yaitu Production dan Development. Untuk pelaksanaan testing atau UAT dapat menggunakan URL development.</p>
+
+<table><thead>
+<tr>
+<th>Production</th>
+<th>Development</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code class="prettyprint">https://web.faspay.co.id/pws/300002/383xx00010100000</code></td>
+<td><code class="prettyprint">http://dev.faspay.co.id/pws/300002/183xx00010100000</code></td>
+</tr>
+</tbody></table>
+
+<h5 id="xml-request-parameter-post-data">XML Request Parameter Post Data</h5>
+
+<blockquote>
+<p>Code XML Request Post Data</p>
+</blockquote>
+<pre class="highlight xml tab-xml"><code><span class="nt">&lt;faspay&gt;</span>
+<span class="nt">&lt;request&gt;</span>Post Data Transaksi<span class="nt">&lt;/request&gt;</span>
+<span class="nt">&lt;merchant_id&gt;</span>99999<span class="nt">&lt;/merchant_id&gt;</span>
+<span class="nt">&lt;merchant&gt;</span>STORE<span class="nt">&lt;/merchant&gt;</span>
+<span class="nt">&lt;bill_no&gt;</span>31004001<span class="nt">&lt;/bill_no&gt;</span>
+<span class="nt">&lt;bill_reff&gt;</span>22222222<span class="nt">&lt;/bill_reff&gt;</span>
+<span class="nt">&lt;bill_date&gt;</span>2012-06-06 14:30:34<span class="nt">&lt;/bill_date&gt;</span>
+<span class="nt">&lt;bill_expired&gt;</span>2013-02-02 15:30:34<span class="nt">&lt;/bill_expired&gt;</span>
+<span class="nt">&lt;bill_desc&gt;</span>Pembelian Barang<span class="nt">&lt;/bill_desc&gt;</span>
+<span class="nt">&lt;bill_currency&gt;</span>IDR<span class="nt">&lt;/bill_currency&gt;</span>
+<span class="nt">&lt;bill_gross&gt;</span>900000<span class="nt">&lt;/bill_gross&gt;</span>
+<span class="nt">&lt;bill_tax&gt;</span>0<span class="nt">&lt;/bill_tax&gt;</span>
+<span class="nt">&lt;bill_miscfee&gt;</span>10000<span class="nt">&lt;/bill_miscfee&gt;</span>
+<span class="nt">&lt;bill_total&gt;</span>1000000<span class="nt">&lt;/bill_total&gt;</span>
+<span class="nt">&lt;cust_no&gt;</span>dany123<span class="nt">&lt;/cust_no&gt;</span>
+<span class="nt">&lt;cust_name&gt;</span>dany permadani<span class="nt">&lt;/cust_name&gt;</span>
+<span class="nt">&lt;payment_channel&gt;</span>400<span class="nt">&lt;/payment_channel&gt;</span>
+<span class="nt">&lt;pay_type&gt;</span>1<span class="nt">&lt;/pay_type&gt;</span>
+<span class="nt">&lt;bank_userid&gt;</span>bot123456<span class="nt">&lt;/bank_userid&gt;</span>
+<span class="nt">&lt;msisdn&gt;</span>62862345678909<span class="nt">&lt;/msisdn&gt;</span>
+<span class="nt">&lt;email&gt;</span>support@mediaindonusa.com<span class="nt">&lt;/email&gt;</span>
+<span class="nt">&lt;terminal&gt;</span>10<span class="nt">&lt;/terminal&gt;</span>
+<span class="nt">&lt;billing_address&gt;</span>Jl Sabang 37<span class="nt">&lt;/billing_address&gt;</span>
+<span class="nt">&lt;billing_address_city&gt;</span>Jakarta<span class="nt">&lt;/billing_address_city&gt;</span>
+<span class="nt">&lt;billing_address_region&gt;</span>DKI Jakarta<span class="nt">&lt;/billing_address_region&gt;</span>
+<span class="nt">&lt;billing_address_state&gt;</span>Indonesia<span class="nt">&lt;/billing_address_state&gt;</span>
+<span class="nt">&lt;billing_address_poscode&gt;</span>10170<span class="nt">&lt;/billing_address_poscode&gt;</span>
+<span class="nt">&lt;billing_address_country_code&gt;</span>ID<span class="nt">&lt;/billing_address_country_code&gt;</span>
+<span class="nt">&lt;receiver_name_for_shipping&gt;</span>Tompi<span class="nt">&lt;/receiver_name_for_shipping&gt;</span>
+<span class="nt">&lt;shipping_address&gt;</span>Jl. Sabang 37<span class="nt">&lt;/shipping_address&gt;</span>
+<span class="nt">&lt;shipping_address_city&gt;</span>Jakarta<span class="nt">&lt;/shipping_address_city&gt;</span>
+<span class="nt">&lt;shipping_address_region&gt;</span>DKI Jakarta<span class="nt">&lt;/shipping_address_region&gt;</span>
+<span class="nt">&lt;shipping_address_state&gt;</span>Indonesia<span class="nt">&lt;/shipping_address_state&gt;</span>
+<span class="nt">&lt;shipping_address_poscode&gt;</span>10170<span class="nt">&lt;/shipping_address_poscode&gt;</span>
+<span class="nt">&lt;item&gt;</span>
+<span class="nt">&lt;product&gt;</span>Buku Cerita<span class="nt">&lt;/product&gt;</span>
+<span class="nt">&lt;qty&gt;</span>2<span class="nt">&lt;/qty&gt;</span>
+<span class="nt">&lt;amount&gt;</span>2000000<span class="nt">&lt;/amount&gt;</span>
+<span class="nt">&lt;payment_plan&gt;</span>01<span class="nt">&lt;/payment_plan&gt;</span>
+<span class="nt">&lt;merchant_id&gt;&lt;/merchant_id&gt;</span>
+<span class="nt">&lt;tenor&gt;</span>00<span class="nt">&lt;/tenor&gt;</span>
+<span class="nt">&lt;/item&gt;</span>
+<span class="nt">&lt;item&gt;</span>
+<span class="nt">&lt;product&gt;</span>Buku Tulis<span class="nt">&lt;/product&gt;</span>
+<span class="nt">&lt;qty&gt;</span>4<span class="nt">&lt;/qty&gt;</span>
+<span class="nt">&lt;amount&gt;</span>1500000<span class="nt">&lt;/amount&gt;</span>
+<span class="nt">&lt;payment_plan&gt;</span>01<span class="nt">&lt;/payment_plan&gt;</span>
+<span class="nt">&lt;tenor&gt;</span>06<span class="nt">&lt;/tenor&gt;</span>
+<span class="nt">&lt;merchant_id&gt;&lt;/merchant_id&gt;</span>
+<span class="nt">&lt;/item&gt;</span>
+<span class="nt">&lt;reserve1&gt;&lt;/reserve1&gt;</span>
+<span class="nt">&lt;reserve2&gt;&lt;/reserve2&gt;</span>
+<span class="nt">&lt;signature&gt;</span>be8791ac5f10bb042834896598bfc6bb9aadcbf9<span class="nt">&lt;/signature&gt;</span>
+<span class="nt">&lt;/faspay&gt;</span>
+</code></pre>
 <h3 id="reference">Reference</h3>
 
 <p>Pada bagian ini akan dijelaskan mengenai referensi pendukung untuk memudahkan pemahaman dalam melakukan setting maupun integrasi dengan Faspay.</p>
@@ -4658,12 +5548,15 @@ Merchant akan melakukan pengecekan ERR_DESC untuk detail error yang terjadi pada
 
 <h3 id="integration-with-ecommerce-web-template-cms">Integration With eCommerce Web Template / CMS</h3>
 
-<p>Pada bagian ini akan dijelaskan bagaimana integrasi antara web template eCommerce dengan system Faspay. Untuk merchant yang menggunakan web template, Faspay akan memberikan file plugin yang harus di copy atau diinstall oleh merchant, untuk saat ini Faspay sudah menyediakan beberapa plugin untuk beberapa web template eCommerce diantaranya :
-* Magento
-* OpenCart
-* Prestashop
-* WooCommerce
-* Dan beberapa web template lainnya (on progress).</p>
+<p>Pada bagian ini akan dijelaskan bagaimana integrasi antara web template eCommerce dengan system Faspay. Untuk merchant yang menggunakan web template, Faspay akan memberikan file plugin yang harus di copy atau diinstall oleh merchant, untuk saat ini Faspay sudah menyediakan beberapa plugin untuk beberapa web template eCommerce diantaranya :</p>
+
+<ul>
+<li>Magento</li>
+<li>OpenCart</li>
+<li>Prestashop</li>
+<li>WooCommerce</li>
+<li>Dan beberapa web template lainnya (on progress).</li>
+</ul>
 
 <aside class="notice">
 Plugin dapat di copy maupun di install ke direktori folder web plugin yang digunakan merchant. Khusus untuk web plugin WooCommerce & Prestashop, plugin yang kami berikan harus di install manual dari web admin.
@@ -6386,7 +7279,7 @@ Plugin dapat di copy maupun di install ke direktori folder web plugin yang digun
 <p align="center"><em>Form Pengisian Detail Item Barang</em></p></p>
 
 <ul>
-<li>Penerima billing akan menerima email pemberitahuan yang berisi tampilan billing yang harus dibayar. Penerima billing dapat mengklik tombol Pay Here untuk melanjutkan ke proses pembayaran. Penerima billing akan diredirect ke halaman pembayaran Faspay Express.</li>
+<li>Penerima billing akan menerima email pemberitahuan yang berisi tampilan billing yang harus dibayar. Penerima billing dapat mengklik tombol <strong>Pay Here</strong> untuk melanjutkan ke proses pembayaran. Penerima billing akan diredirect ke halaman pembayaran Faspay Express.</li>
 </ul>
 
 <p><img src="images/fasbil15.png" alt="Image of fasbil" />
@@ -6546,7 +7439,7 @@ Untuk item name dan amount item name menyesuaikan dengan billing yang akan diinp
 <li>E-Wallet</li>
 <li>Credit Card</li>
 </ul></li>
-<li><p>Centang pilihan Term And Conditions kemudian klik Pay Now untuk menyelesaikan proses pembayaran. Penyelesaian pembayaran dapat dilakukan pada halaman Faspay Billing, diredirect ke halaman payment channel ataupun melalui ATM / handset.</p></li>
+<li><p>Centang pilihan Term And Conditions kemudian klik <strong>Pay Now</strong> untuk menyelesaikan proses pembayaran. Penyelesaian pembayaran dapat dilakukan pada halaman Faspay Billing, diredirect ke halaman payment channel ataupun melalui ATM / handset.</p></li>
 </ul>
 
 <p><img src="images/fasbil22.png" alt="Image of fasbil" />
@@ -8131,8 +9024,8 @@ Pada one step transaction pembeli akan memberikan data pada halaman web merchant
 </tr>
 </thead><tbody>
 <tr>
-<td><code class="prettyprint">https://faspay.mediaindonusa.com/pws/100005/383xx00010100000</code></td>
-<td><code class="prettyprint">http://faspaydev.mediaindonusa.com/pws/100005/183xx00010100000</code></td>
+<td><code class="prettyprint">https://web.faspay.co.id/pws/100005/383xx00010100000</code></td>
+<td><code class="prettyprint">http://dev.faspay.co.id/pws/100005/183xx00010100000</code></td>
 </tr>
 </tbody></table>
 
