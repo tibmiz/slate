@@ -1,0 +1,1309 @@
+<h1 id="introduction">Introduction</h1>
+
+<p><a href='https://www.faspay.co.id'><strong>FASPAY</strong></a> adalah penyedia online payment gateway yang membantu dan memberi solusi kepada online merchant untuk mempermudah proses pembayaran. Tujuan utama Faspay adalah memungkinkan merchant untuk menerima semua jenis pembayaran dalam bentuk apapun yang mereka inginkan baik itu pembayaran melalui platform transaksi debit maupun transaksi menggunakan kartu kredit</p>
+
+<h1 id="crm-module">CRM Module</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>CRM (Customer Relationship Management) module adalah aplikasi module yang digunakan untuk mengelola data merchant Faspay. Pengelolaan data Merchant dimulai dari pendaftaran merchant, development sampai dengan go live di production.</p>
+
+<h2 id="features">Features</h2>
+
+<p>CRM module sudah dilengkapi dengan berbagai fitur untuk memudahkan dalam mengolah data merchant, diantaranya :</p>
+
+<ul>
+<li>Create New Merchant</li>
+<li>Manage All Merchant</li>
+<li>Dashboard</li>
+<li>Manage Activity</li>
+<li>Manage Project</li>
+<li>Merchant Report</li>
+</ul>
+
+<h2 id="how-to-use">How To Use</h2>
+
+<p>Untuk dapat login ke applikasi CRM Module user terlebih dahulu harus mendaftarkan ke Admin Faspay untuk mendapatkan hak akses berupa username dan password untuk masuk ke dalam system Portal Faspay.</p>
+
+<p><b><u>Akses URL Portal Faspay</u></b></p>
+
+<p align = 'center'><a href='https://www.faspay.co.id/portal'>https://www.faspay.co.id/portal</a></p>
+
+<h3 id="getting-started">Getting Started</h3>
+
+<ul>
+<li>Login pada halaman Portal Faspay menggunakan username dan password yang sudah didapat dari Admin Faspay. Masukkan juga kode captcha yang tampil kemudian klik <strong>Sign In</strong></li>
+</ul>
+
+<p><img src="/images/CRM1.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan login Portal Faspay</em></p></p>
+
+<p><img src="/images/CRM2.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Setelah login Faspay Portal</em></p></p>
+
+<ul>
+<li>Klik tombol CRM V3 di halaman bawah untuk masuk ke halaman CRM Module</li>
+</ul>
+
+<p><img src="/images/CRM3.png" alt="Image of CRM" />
+<p align="center"><em>Tombol CRM V3 untuk Masuk ke CRM Module</em></p></p>
+
+<h3 id="merchant">Merchant</h3>
+
+<p>Berisi informasi yang berkaitan dengan pengelola data merchant Faspay.</p>
+
+<h4 id="create-new-merchant">Create New Merchant</h4>
+
+<p>Merupakan proses untuk mendaftarkan merchant baru yang akan join ke Faspay.</p>
+
+<p><b><u>Langkah-Langkah Create New Merchant</u></b></p>
+
+<ul>
+<li>Klik menu Merchant pada panel menu sebelah kiri </li>
+</ul>
+
+<p><img src="/images/CRM4.png" alt="Image of CRM" />
+<p align="center"><em>Menu Merchant Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li><p>Klik tombol <strong>Create New Merchant</strong></p></li>
+<li><p>Isi data merchant pada form <strong>Create New Merchant Account</strong> kemudian klik tombol <strong>CREATE</strong>. Pastikan terdapat pesan yang muncul Data has been successfully added</p></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Ma Name</td>
+<td>Isi dengan nama merchant</td>
+</tr>
+<tr>
+<td>Company Name</td>
+<td>Isi dengan nama perusahaan merchant</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Isi dengan status join merchant ke Faspay</td>
+</tr>
+<tr>
+<td>Internal Category</td>
+<td>Isi kategori service yang akan digunakan oleh merchant</td>
+</tr>
+<tr>
+<td>Industri Category</td>
+<td>Isi dengan kategori jenis usaha merchant</td>
+</tr>
+<tr>
+<td>Parent</td>
+<td>Isi apabila merchant merupakan bagian dari merchant yang sudah didaftarkan</td>
+</tr>
+<tr>
+<td>Ma Address</td>
+<td>Isi dengan alamat merchant</td>
+</tr>
+<tr>
+<td>Ma City</td>
+<td>Isi dengan nama kota merchant</td>
+</tr>
+<tr>
+<td>Ma Province</td>
+<td>Isi dengan nama propinsi merchant</td>
+</tr>
+<tr>
+<td>Ma Country</td>
+<td>Isi dengan Negara merchant</td>
+</tr>
+<tr>
+<td>Ma Postal Code</td>
+<td>Isi dengan kode pos merchant</td>
+</tr>
+<tr>
+<td>Ma Npwp</td>
+<td>Isi dengan nomor NPWP merchant</td>
+</tr>
+<tr>
+<td>Ma Npwp Address</td>
+<td>Isi dengan alamat berdasarkan NPWP merchant</td>
+</tr>
+<tr>
+<td>Deal Date</td>
+<td>Isi dengan tanggal dealnya merchant dengan Faspay</td>
+</tr>
+<tr>
+<td>First Live Date</td>
+<td>Isi dengan tanggal perkiraan go live merchant</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM5.png" alt="Image of CRM" />
+<p align="center"><em>Form Isian untuk Data Merchant Baru</em></p></p>
+
+<h4 id="view-merchant">View Merchant</h4>
+
+<p>Berisi semua informasi yang berkaitan dengan Merchant. </p>
+
+<p><b><u>Langkah-langkah View Merchant</u></b></p>
+
+<ul>
+<li>Klik menu Merchant pada panel menu sebelah kiri</li>
+</ul>
+
+<p><img src="/images/CRM6.png" alt="Image of CRM" />
+<p align="center"><em>Menu Merchant Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li>Cari Merchant yang ingin ditambahkan BOI nya lalu klik tombol  yang ada di sebelah kanan</li>
+</ul>
+
+<p>Untuk mencari semua merchant dapat melakukan geser toggle dari <b>MY MERCHANT</b> ke <b>ALL MERCHANT</b>
+</aside></p>
+
+<p><img src="/images/CRM7.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Pencarian Merchant</em></p></p>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Company Name</td>
+<td>Berisi informasi nama perusahaan Merchant</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Berisi informasi status join merchant ke Faspay</td>
+</tr>
+<tr>
+<td>Internal Category</td>
+<td>Berisi informasi kategori service yang akan digunakan oleh merchant</td>
+</tr>
+<tr>
+<td>Industri Category</td>
+<td>Berisi informasi kategori jenis usaha merchant</td>
+</tr>
+<tr>
+<td>Parent Merchant</td>
+<td>Berisi informasi nama induk Merchant [apabila Merchant mengacu pada Merchant induk</td>
+</tr>
+<tr>
+<td>Deal Date</td>
+<td>Berisi informasi tanggal deal Merchant dengan Faspay</td>
+</tr>
+<tr>
+<td>First Live Date</td>
+<td>Berisi informasi tanggal go live pertama / perkiraan go live</td>
+</tr>
+<tr>
+<td>Approved By</td>
+<td>Berisi informasi nama penyetujui merchant</td>
+</tr>
+<tr>
+<td>Approval Date</td>
+<td>Berisi informasi tanggal disetujuinya merchant</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>Berisi informasi alamat merchant</td>
+</tr>
+<tr>
+<td>City</td>
+<td>Berisi informasi kota merchant</td>
+</tr>
+<tr>
+<td>Province</td>
+<td>Berisi informasi propinsi merchant</td>
+</tr>
+<tr>
+<td>Country</td>
+<td>Berisi informasi negara merchant</td>
+</tr>
+<tr>
+<td>Postal Code</td>
+<td>Berisi informasi kode pos merchant</td>
+</tr>
+<tr>
+<td>NPWP</td>
+<td>Berisi informasi nomor NPWP merchant</td>
+</tr>
+<tr>
+<td>NPWP Address</td>
+<td>Berisi informasi alamat berdasarkan NPWP merchant</td>
+</tr>
+<tr>
+<td>Boi</td>
+<td>Berisi informasi nomor BOI merchant</td>
+</tr>
+<tr>
+<td>Boi Name</td>
+<td>Berisi informasi nama BOI merchant</td>
+</tr>
+<tr>
+<td>Product</td>
+<td>Berisi informasi service product Faspay yang digunakan merchant</td>
+</tr>
+<tr>
+<td>Coa Bank</td>
+<td>Berisi informasi COA Bank yang digunakan merchant</td>
+</tr>
+<tr>
+<td>Tools [BOI]</td>
+<td>Merupakan tool pendukung data BOI merchant<br><ul><li>View BOI<li>Delete BOI</ul></td>
+</tr>
+<tr>
+<td>Contact Name</td>
+<td>Berisi nama PIC merchant</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>Berisi alamat email merchant</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>Berisi nomor telepon merchant</td>
+</tr>
+<tr>
+<td>Contact Type</td>
+<td>Berisi tipe kontak merchant</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>Merupakan tool pendukung data kontak merchant<br><ul><li>View kontak<li>Delete kontak</ul></td>
+</tr>
+<tr>
+<td>Document Name</td>
+<td>Digunakan untuk mengupload dokumen yang harus dilengkapi sebagai syarat penambahan merchant baru. Dokumen tersebut meliputi :<br><ol><li>Perjanjian Kerja sama<li>Company Profile<li>Akta Pendirian<li>NPWP<li>Tanda Daftar Perusahaan<li>Surat Ijin Usaha Perdagangan<li>Surat Ijin Tempat Usaha<li>Kartu Tanda Penduduk<li>Surat Domisili</td>
+</tr>
+<tr>
+<td>Upload Status</td>
+<td>Berisi informasi status upload dokumen</td>
+</tr>
+<tr>
+<td>Other Document</td>
+<td>Digunakan untuk mengupload dokumen tambahan</td>
+</tr>
+<tr>
+<td>Owner</td>
+<td>Berisi informasi nama sales Merchant</td>
+</tr>
+<tr>
+<td>User input</td>
+<td>Berisi informasi nama user yang melakukan input data merchant</td>
+</tr>
+<tr>
+<td>Input Date</td>
+<td>Berisi informasi tanggal diinputnya merchant</td>
+</tr>
+<tr>
+<td>Updated By</td>
+<td>Berisi informasi nama user yang melakukan update terakhir data merchant</td>
+</tr>
+<tr>
+<td>Last Update Date</td>
+<td>Berisi informasi tanggal dilakukannya update terakhir data merchant</td>
+</tr>
+<tr>
+<td>Update [Basic Information]</td>
+<td>Klik tombol untuk menyimpan perubahan data informasi merchant</td>
+</tr>
+<tr>
+<td>Add New [BOI]</td>
+<td>Klik tombol untuk menambahkan BOI baru</td>
+</tr>
+<tr>
+<td>Add New [Merchant Contact(s)]</td>
+<td>Klik tombol untuk menambahkan kontak merchant baru</td>
+</tr>
+<tr>
+<td>See Uploaded Documents [Document(s)]</td>
+<td>Klik tombol untuk melihat dokumen yang sudah diupload</td>
+</tr>
+<tr>
+<td>Save [Other Document]</td>
+<td>Klik tombol untuk menyimpan documen tambahan yang diupload</td>
+</tr>
+<tr>
+<td>Change [Merchant&rsquo;s Owner]</td>
+<td>Klik tombol untuk melakukan perubahan data sales merchant</td>
+</tr>
+<tr>
+<td>Logs [Merchant&rsquo;s Owner]</td>
+<td>Klik tombol untuk melihat log perubahan yang dilakukan pada sales merchant</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM8.png" alt="Image of CRM" />
+<p align="center"><em>Form Informasi Umum Data Merchant</em></p></p>
+
+<p><img src="/images/CRM9.png" alt="Image of CRM" />
+<p align="center"><em>Form Informasi Data Perusahaan dan BOI Merchant</em></p></p>
+
+<p><img src="/images/CRM10.png" alt="Image of CRM" />
+<p align="center"><em>Form Informasi Data Contact dan Document Merchant</em></p></p>
+
+<p><img src="/images/CRM11.png" alt="Image of CRM" />
+<p align="center"><em>Form Informasi Data Tambahan Merchant</em></p></p>
+
+<p><img src="/images/CRM12.png" alt="Image of CRM" />
+<p align="center"><em>Form Informasi Data Administrasi Merchant</em></p></p>
+
+<h4 id="create-new-boi">Create New BOI</h4>
+
+<p>Merupakan proses untuk mendaftarkan BOI baru atas Merchant yang sudah dibuat.</p>
+
+<p><b><u>Langkah-langkah Create New BOI</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Merchant</strong> pada panel menu sebelah kiri</li>
+</ul>
+
+<p><img src="/images/CRM13.png" alt="Image of CRM" />
+<p align="center"><em>Menu Merchant Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li>Cari Merchant yang ingin ditambahkan BOI nya lalu klik tombol <img src="/images/CRM14.png" alt="Image of CRM" /> yang ada di sebelah kanan </li>
+</ul>
+
+<aside class="notice">
+Untuk mencari semua merchant dapat melakukan geser toggle dari <b>MY MERCHANT</b> ke <b>ALL MERCHANT</b>
+</aside>
+
+<p><img src="/images/CRM15.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Pencarian Merchant</em></p></p>
+
+<ul>
+<li>Pada kolom BOI klik <strong>Add New</strong> untuk menambahkan BOI baru</li>
+</ul>
+
+<p><img src="/images/CRM16.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Kolom BOI</em></p></p>
+
+<ul>
+<li>Isi pada form pendaftaran <strong>Create New BOI Merchant</strong> setelah itu klik tombol <strong>Create</strong> sampai muncul pesan <em>Successfully created new data</em></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Boi Name</td>
+<td>Isi dengan informasi nama merchant ID</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Isi dengan informasi status BOI</td>
+</tr>
+<tr>
+<td>Product</td>
+<td>Isi dengan informasi product yang dipakai untuk merchant ID</td>
+</tr>
+<tr>
+<td>Url Web</td>
+<td>Isi dengan informasi alamat URL web merchant ID untuk production</td>
+</tr>
+<tr>
+<td>Url Web Dev</td>
+<td>Isi dengan informasi alamat URL web merchant ID untuk development</td>
+</tr>
+<tr>
+<td>Bank Acc</td>
+<td>Isi dengan informasi nomor akun bank merchant ID</td>
+</tr>
+<tr>
+<td>Bank Acc Name</td>
+<td>Isi dengan informasi nama akun bank merchant ID</td>
+</tr>
+<tr>
+<td>Bank Name</td>
+<td>Isi dengan informasi nama bank merchant ID</td>
+</tr>
+<tr>
+<td>Chart Of Account</td>
+<td>Isi dengan informasi COA bank</td>
+</tr>
+<tr>
+<td>Cap Minimum Invoice</td>
+<td>Isi dengan informasi nilai minimum invoice yang diterbitkan atas ID merchant</td>
+</tr>
+<tr>
+<td>Maintenance Fee</td>
+<td>Isi dengan informasi nilai biaya untuk maintenance [jika ada]</td>
+</tr>
+<tr>
+<td>API Direct Fee</td>
+<td>Isi dengan informasi nilai biaya untuk merchant ID yang menggunakan API direct</td>
+</tr>
+<tr>
+<td>Platform Fee</td>
+<td>Isi dengan informasi nilai biaya atas platform yang digunakan merchant ID</td>
+</tr>
+<tr>
+<td>Orlantsoft Customer ID</td>
+<td>Isi dengan informasi Orlantsoft Customer ID</td>
+</tr>
+<tr>
+<td>Penalty Calculation</td>
+<td>Centang jika terdapat kalkukasi penalty untuk merchant ID</td>
+</tr>
+<tr>
+<td>Notif API</td>
+<td>Centang jika terdapat notif API untuk merchant ID</td>
+</tr>
+<tr>
+<td>Live Date</td>
+<td>Isi dengan tanggal live merchant ID</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM17.png" alt="Image of CRM" />
+<img src="/images/CRM18.png" alt="Image of CRM" />
+<p align="center"><em>Form Isian untuk Create New BOI Merchant</em></p></p>
+
+<h4 id="create-new-merchant-contact">Create New Merchant Contact</h4>
+
+<p>Merupakan proses untuk mendaftarkan kontak Merchant atas Merchant yang sudah dibuat.</p>
+
+<p><b><u>Langkah-langkah Create New Merchant Contact</u></b></p>
+
+<ul>
+<li>Klik menu Merchant pada panel menu sebelah kiri</li>
+</ul>
+
+<p><img src="/images/CRM19.png" alt="Image of CRM" />
+<p align="center"><em>Menu Merchant Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li>Cari Merchant yang ingin ditambahkan Contact nya lalu klik tombol <img src="/images/CRM14.png" alt="Image of CRM" /> yang ada di sebelah kanan </li>
+</ul>
+
+<aside class="notice">
+Untuk mencari semua merchant dapat melakukan geser toggle dari <b>MY MERCHANT</b> ke <b>ALL MERCHANT</b>
+</aside>
+
+<p><img src="/images/CRM20.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Pencarian Merchant</em></p></p>
+
+<ul>
+<li>Pada kolom Merchant Contact(s) klik <strong>Add New</strong> untuk menambahkan kontak merchant</li>
+</ul>
+
+<p><img src="/images/CRM21.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Kolom Merchant Contact(s)</em></p></p>
+
+<ul>
+<li>Isi pada form pendaftaran <strong>Create New Merchant Contact</strong> setelah itu klik tombol <strong>Create</strong> sampai muncul pesan <em>Successfully created new data</em></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Chart Of Account</td>
+<td>Pilih COA yang digunakan untuk merchant</td>
+</tr>
+<tr>
+<td>Contact Name</td>
+<td>Isi dengan informasi nama contact merchant</td>
+</tr>
+<tr>
+<td>Contact Email</td>
+<td>Isi dengan informasi alamat email contact merchant</td>
+</tr>
+<tr>
+<td>Contact Phone</td>
+<td>Isi dengan informasi nomor telepon contact merchant</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM22.png" alt="Image of CRM" />
+<p align="center"><em>Form Isian untuk Create New Merchant Contact</em></p></p>
+
+<h3 id="activity">Activity</h3>
+
+<p>Berisi informasi pengelolaan schedule aktifitas yang berkaitan dengan merchant seperti meeting, pertemuan ataupun lunch.</p>
+
+<h4 id="create-new-activity">Create New Activity</h4>
+
+<p>Merupakan proses untuk mendaftarkan aktifitas baru yang berkaitan dengan merchant seperti meeting, pertemuan ataupun lunch.</p>
+
+<p><b><u>Langkah-Langkah Create New Activity</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Activity</strong> pada panel menu sebelah kiri </li>
+<li>Klik tombol <strong>Create New</strong></li>
+<li>Isi data activity pada form <strong>Create Activity</strong> kemudian klik tombol <strong>CREATE</strong>. Pastikan terdapat pesan yang muncul <em>Data has been successfully added</em></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>New Merchant [Ceklist]</td>
+<td>Centang apabila activity berkaitan dengan merchant baru</td>
+</tr>
+<tr>
+<td>Merchant</td>
+<td>Isi dengan nama merchant</td>
+</tr>
+<tr>
+<td>Other Client</td>
+<td>Pilih client lain yang terlibat dalam activity</td>
+</tr>
+<tr>
+<td>Activity</td>
+<td>Pilih activity yang akan didaftarkan</td>
+</tr>
+<tr>
+<td>Activity Status</td>
+<td>Pilih status activity</td>
+</tr>
+<tr>
+<td>Plan Date</td>
+<td>Isi dengan tanggal rencana activity akan dilaksanakan</td>
+</tr>
+<tr>
+<td>Real Date</td>
+<td>Isi dengan tanggal actual activity dilaksanakan</td>
+</tr>
+<tr>
+<td>Venue</td>
+<td>Isi dengan informasi nama tempat berlangsungnya activity</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>Isi dengan informasi catatan yang berkaitan dengan activity</td>
+</tr>
+<tr>
+<td>Agenda</td>
+<td>Isi dengan agenda yang akan dilakukan pada saat activity dilaksanakan</td>
+</tr>
+</tbody></table>
+
+<h4 id="view-activity">View Activity</h4>
+
+<p>Berisi semua informasi activity-activity yang sudah dibuat.</p>
+
+<p><b><u>Langkah-Langkah View Activity</u></b></p>
+
+<ul>
+<li><p>Klik menu Activity pada panel menu sebelah kiri </p></li>
+<li><p>Geser panah kanan atau kiri pada calendar untuk melihat activity yang sudah dibuat</p></li>
+<li><p>Klik pada activity untuk melihat detail dari activity tersebut</p></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Filter User Owner</td>
+<td>Isi dengan nama user untuk memfilter activity berdasarkan user yang pembuat activity</td>
+</tr>
+<tr>
+<td>Today</td>
+<td>Klik untuk melihat activity pada hari ini</td>
+</tr>
+<tr>
+<td>Week</td>
+<td>Klik untuk melihat activity dalam mingguan</td>
+</tr>
+<tr>
+<td>Month</td>
+<td>Klik untuk melihat activity dalam bulanan</td>
+</tr>
+<tr>
+<td>Panah Kiri</td>
+<td>Klik untuk melihat activity pada minggu atau bulan sebelumnya</td>
+</tr>
+<tr>
+<td>Panah Kanan</td>
+<td>Klik untuk melihat activity pada minggu atau bulan setelahnya</td>
+</tr>
+</tbody></table>
+
+<h3 id="project">Project</h3>
+
+<p>Berisi informasi pengelolaan project yang berkaitan dengan merchant</p>
+
+<h4 id="create-new-project">Create New Project</h4>
+
+<p>Merupakan proses untuk mendaftarkan project baru</p>
+
+<p><b><u>Langkah-Langkah Create New Project</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Project</strong> pada panel menu sebelah kiri</li>
+</ul>
+
+<p><img src="/images/CRM23.png" alt="Image of CRM" />
+<p align="center"><em>Menu Project Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li><p>Klik tombol <strong>Create Trx Project</strong></p></li>
+<li><p>Isi data project pada form <strong>Create New Project</strong> kemudian klik tombol <strong>CREATE</strong>. Pastikan terdapat pesan yang muncul <em>Data has been successfully added</em></p></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Merchant</td>
+<td>Pilih nama merchant</td>
+</tr>
+<tr>
+<td>Boi</td>
+<td>Pilih BOI yang digunakan</td>
+</tr>
+<tr>
+<td>Project Name</td>
+<td>Isi dengan informasi nama project</td>
+</tr>
+<tr>
+<td>Project Status</td>
+<td>Pilih status berlangsungnya project</td>
+</tr>
+<tr>
+<td>Project Desc</td>
+<td>Isi dengan uraian singkat mengenai project yang dikerjakan</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM24.png" alt="Image of CRM" />
+<p align="center"><em>Form Isian untuk Create New Project</em></p></p>
+
+<h4 id="view-project">View Project</h4>
+
+<p>Berisi semua informasi yang berkaitan dengan Project. </p>
+
+<p><b><u>Langkah-langkah View Project</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Project</strong> pada panel menu sebelah kiri</li>
+</ul>
+
+<p><img src="/images/CRM25.png" alt="Image of CRM" />
+<p align="center"><em>Menu Project Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li>Cari project yang ingin di view lalu klik tombol <img src="/images/CRM14.png" alt="Image of CRM" /> yang ada di sebelah kanan </li>
+</ul>
+
+<aside class="notice">
+Untuk mencari semua merchant dapat melakukan geser toggle dari <b>MY PROJECT</b> ke <b>ALL PROJECT</b>
+</aside>
+
+<p><img src="/images/CRM26.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Pencarian Project</em></p></p>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Status</td>
+<td>Berisi informasi status dari project</td>
+</tr>
+<tr>
+<td>Project Name</td>
+<td>Berisi informasi nama project</td>
+</tr>
+<tr>
+<td>Project Description</td>
+<td>Berisi informasi deskripsi singkat mengenai project</td>
+</tr>
+<tr>
+<td>Project Percentage</td>
+<td>Berisi informasi persentase kemajuan project</td>
+</tr>
+<tr>
+<td>Start Date [Basic Information]</td>
+<td>Berisi informasi tanggal dimulainya project</td>
+</tr>
+<tr>
+<td>Finish Date</td>
+<td>Berisi informasi tanggal selesainya project</td>
+</tr>
+<tr>
+<td>ON GOING</td>
+<td>Berisi informasi daftar channel yang sedang berjalan</td>
+</tr>
+<tr>
+<td>ON HOLD</td>
+<td>Berisi informasi daftar channel yang sedang dihentikan sementara</td>
+</tr>
+<tr>
+<td>COMPLETED</td>
+<td>Berisi informasi daftar channel yang sudah selesai</td>
+</tr>
+<tr>
+<td>DROPPED</td>
+<td>Berisi informasi daftar channel yang sudah dihentikan</td>
+</tr>
+<tr>
+<td>Channel Code</td>
+<td>Berisi informasi kode channel</td>
+</tr>
+<tr>
+<td>Channel</td>
+<td>Berisi informasi nama channel</td>
+</tr>
+<tr>
+<td>Projects Status</td>
+<td>Berisi informasi status project channel</td>
+</tr>
+<tr>
+<td>Progress Percentage</td>
+<td>Berisi informasi persentase kemajuan project channel</td>
+</tr>
+<tr>
+<td>Start Date [Channel]</td>
+<td>Berisi informasi tanggal dimulainya project channel</td>
+</tr>
+<tr>
+<td>Finish Date [Channel]</td>
+<td>Berisi informasi tanggal selesainya project channel</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>Berisi tool tambahan yang berfungsi untuk mengelola data channel. Tool tersebut antara lain : View, Drop dan Delete</td>
+</tr>
+<tr>
+<td>Comment</td>
+<td>Berisi comment yang berkaitan dengan project</td>
+</tr>
+<tr>
+<td>Tombol Comment</td>
+<td>Tombol yang digunakan untuk input commment</td>
+</tr>
+<tr>
+<td>User input</td>
+<td>Berisi informasi user yang menginput data project</td>
+</tr>
+<tr>
+<td>Input Date</td>
+<td>Berisi informasi tanggal diinputnya project</td>
+</tr>
+<tr>
+<td>Updated By</td>
+<td>Berisi informasi user yang melakukan update terakhir data project</td>
+</tr>
+<tr>
+<td>Last Update Date</td>
+<td>Berisi informasi tanggal terakhir update terakhir data project</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM27.png" alt="Image of CRM" />
+<img src="/images/CRM28.png" alt="Image of CRM" />
+<img src="/images/CRM29.png" alt="Image of CRM" />
+<p align="center"><em>Form Informasi View Data Project</em></p></p>
+
+<h4 id="create-new-channel">Create New Channel</h4>
+
+<p>Merupakan proses untuk mendaftarkan channel baru atas project yang sudah dibuat.</p>
+
+<p><b><u>Langkah-langkah Create New Channel</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Project</strong> pada panel menu sebelah kiri</li>
+</ul>
+
+<p><img src="/images/CRM30.png" alt="Image of CRM" />
+<p align="center"><em>Menu Project Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li>Cari project yang ingin ditambahkan channel nya lalu klik tombol <img src="/images/CRM14.png" alt="Image of CRM" /> yang ada di sebelah kanan </li>
+</ul>
+
+<aside class="notice">
+Untuk mencari semua merchant dapat melakukan geser toggle dari <b>MY PROJECT</b> ke <b>ALL PROJECT</b>
+</aside>
+
+<p><img src="/images/CRM31.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Pencarian Project</em></p></p>
+
+<ul>
+<li>Pada kolom Channels klik <strong>Add New</strong> untuk menambahkan channel baru</li>
+</ul>
+
+<p><img src="/images/CRM32.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Kolom Channel</em></p></p>
+
+<ul>
+<li>Isi pada form pendaftaran <strong>Add Channels</strong> setelah itu klik tombol <strong>Create</strong> sampai muncul pesan <em>Successfully created new data</em></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Channel Category</td>
+<td>Isi dengan informasi nama merchant ID</td>
+</tr>
+<tr>
+<td>Channels</td>
+<td>Isi dengan informasi status BOI</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM33.png" alt="Image of CRM" />
+<p align="center"><em>Form Isian untuk Create New Channel</em></p></p>
+
+<h3 id="reports">Reports</h3>
+
+<h4 id="merchant-live-report">Merchant Live Report</h4>
+
+<p>Merupakan report yang berisi data-data merchant Faspay yang sudah go live</p>
+
+<p><b><u>Langkah-Langkah View Merchant Live Report</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Reports</strong> pada panel menu sebelah kiri</li>
+</ul>
+
+<p><img src="/images/CRM34.png" alt="Image of CRM" />
+<p align="center"><em>Menu Reports Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li>Pilih dan klik <strong>Merchant Live Report</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Filter Merchant</td>
+<td>Pilih untuk memfilter report berdasarkan nama merchant</td>
+</tr>
+<tr>
+<td>Filter Boi</td>
+<td>Pilih untuk memfilter report berdasarkan BOI  merchant</td>
+</tr>
+<tr>
+<td>Filter Channel</td>
+<td>Pilih untuk memfilter report berdasarkan channel merchant</td>
+</tr>
+<tr>
+<td>Filter Task</td>
+<td>Pilih untuk memfilter report berdasarkan task</td>
+</tr>
+<tr>
+<td>Filter user assigned</td>
+<td>Pilih untuk memfilter report berdasarkan user yang di assign</td>
+</tr>
+<tr>
+<td>Filter Status</td>
+<td>Pilih untuk memfilter report berdasarkan status merchant</td>
+</tr>
+<tr>
+<td>Filter Sales</td>
+<td>Pilih untuk memfilter report berdasarkan nama sales merchant</td>
+</tr>
+<tr>
+<td>Filter Start Date</td>
+<td>Isi untuk memfilter report berdasarkan tanggal mulai</td>
+</tr>
+<tr>
+<td>Filter Finish Date</td>
+<td>Isi untuk memfilter report berdasarkan tanggal selesai</td>
+</tr>
+<tr>
+<td>Ma Name</td>
+<td>Berisi informasi nama merchant</td>
+</tr>
+<tr>
+<td>Boi</td>
+<td>Berisi informasi BOI merchant</td>
+</tr>
+<tr>
+<td>Channel Code</td>
+<td>Berisi informasi kode channel merchant</td>
+</tr>
+<tr>
+<td>Channel Name</td>
+<td>Berisi informasi nama channel merchant</td>
+</tr>
+<tr>
+<td>Current</td>
+<td>Berisi informasi posisi status saat ini</td>
+</tr>
+<tr>
+<td>Progress Percentage</td>
+<td>Berisi informasi perkembangan kemajuan merchant</td>
+</tr>
+<tr>
+<td>Us Assign</td>
+<td>Berisi informasi nama user yang di assign</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Berisi informasi status saat ini</td>
+</tr>
+<tr>
+<td>Start Date</td>
+<td>Berisi informasi tanggal dimulainya</td>
+</tr>
+<tr>
+<td>Finish Date</td>
+<td>Berisi informasi tanggal selesainya</td>
+</tr>
+<tr>
+<td>Sales</td>
+<td>Berisi informasi nama salesnya</td>
+</tr>
+<tr>
+<td>Tombol Halaman</td>
+<td>Klik untuk berpindah ke suatu halaman tertentu</td>
+</tr>
+<tr>
+<td>Tombol Excel</td>
+<td>Klik untuk mendownload report dalam format excel</td>
+</tr>
+<tr>
+<td>Tombol PDF</td>
+<td>Klik untuk mendownload report dalam format PDF</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM35.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Merchant Report</em></p></p>
+
+<h4 id="channel-report">Channel Report</h4>
+
+<p>Merupakan report yang berisi data-data channel merchant</p>
+
+<p><b><u>Langkah-Langkah View Channel Report</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Reports</strong> pada panel menu sebelah kiri </li>
+</ul>
+
+<p><img src="/images/CRM36.png" alt="Image of CRM" />
+<p align="center"><em>Menu Reports Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li><p>Pilih dan klik <strong>Channel Report</strong></p></li>
+<li><p>Pilih merchant kemudian tekan tombol Enter</p></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Filter Merchant</td>
+<td>Isi untuk memfilter report berdasarkan nama merchant</td>
+</tr>
+<tr>
+<td>Tombol New Browser Window</td>
+<td>Klik untuk membuka tampilan report dalam jendela browser baru</td>
+</tr>
+<tr>
+<td>HTML</td>
+<td>Klik untuk mendownload report dalam format HTML</td>
+</tr>
+<tr>
+<td>PDF</td>
+<td>Klik untuk mendownload report dalam format PDF</td>
+</tr>
+<tr>
+<td>CSV</td>
+<td>Klik untuk mendownload report dalam format CSV</td>
+</tr>
+<tr>
+<td>Channel Name</td>
+<td>Berisi informasi nama channel</td>
+</tr>
+<tr>
+<td>Channel Category</td>
+<td>Berisi informasi kategori channel</td>
+</tr>
+<tr>
+<td>Ma Name</td>
+<td>Berisi informasi nama merchant</td>
+</tr>
+<tr>
+<td>Boi</td>
+<td>Berisi informasi kode BOI merchant</td>
+</tr>
+<tr>
+<td>Boi Name</td>
+<td>Berisi informasi nama BOI merchant</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM37.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Parameter Channel Report</em></p></p>
+
+<p><img src="/images/CRM38.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Channel Report</em></p></p>
+
+<h4 id="merchant-detail-report">Merchant Detail Report</h4>
+
+<p>Merupakan report yang berisi data-data detail merchant Faspay</p>
+
+<p><b><u>Langkah-Langkah View Merchant Detail Report</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Reports</strong> pada panel menu sebelah kiri </li>
+</ul>
+
+<p><img src="/images/CRM39.png" alt="Image of CRM" />
+<p align="center"><em>Menu Reports Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li>Pilih dan klik <strong>Merchant Detail</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Filter Merchant</td>
+<td>Isi untuk memfilter report berdasarkan nama merchant</td>
+</tr>
+<tr>
+<td>Tombol New Browser Window</td>
+<td>Klik untuk membuka tampilan report dalam jendela browser baru</td>
+</tr>
+<tr>
+<td>HTML</td>
+<td>Klik untuk mendownload report dalam format HTML</td>
+</tr>
+<tr>
+<td>PDF</td>
+<td>Klik untuk mendownload report dalam format PDF</td>
+</tr>
+<tr>
+<td>CSV</td>
+<td>Klik untuk mendownload report dalam format CSV</td>
+</tr>
+<tr>
+<td>Merchants</td>
+<td>Berisi informasi nama merchant</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>Berisi informasi alamat merchant</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>Berisi informasi nomor telepon merchant</td>
+</tr>
+<tr>
+<td>Boi</td>
+<td>Berisi informasi kode BOI merchant</td>
+</tr>
+<tr>
+<td>Boi Name</td>
+<td>Berisi informasi nama BOI merchant</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>Berisi informasi alamat website merchant</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM40.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Parameter Merchant Detail</em></p></p>
+
+<p><img src="/images/CRM41.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Merchant Detail Report</em></p></p>
+
+<h4 id="sales-report">Sales Report</h4>
+
+<p>Merupakan report yang berisi data-data untuk keperluan sales</p>
+
+<p><b><u>Langkah-Langkah View Sales Report</u></b></p>
+
+<ul>
+<li>Klik menu <strong>Reports</strong> pada panel menu sebelah kiri </li>
+</ul>
+
+<p><img src="/images/CRM42.png" alt="Image of CRM" />
+<p align="center"><em>Menu Reports Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<ul>
+<li>Pilih dan klik <strong>Sales Report</strong></li>
+</ul>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Filter Merchant</td>
+<td>Isi untuk memfilter report berdasarkan nama merchant</td>
+</tr>
+<tr>
+<td>Filter Product</td>
+<td>Isi untuk memfilter report berdasarkan nama product</td>
+</tr>
+<tr>
+<td>Filter Boi</td>
+<td>Isi untuk memfilter report berdasarkan Boi</td>
+</tr>
+<tr>
+<td>Filter Channel Name</td>
+<td>Isi untuk memfilter report berdasarkan nama channel</td>
+</tr>
+<tr>
+<td>Tombol New Browser Window</td>
+<td>Klik untuk membuka tampilan report dalam jendela browser baru</td>
+</tr>
+<tr>
+<td>HTML</td>
+<td>Klik untuk mendownload report dalam format HTML</td>
+</tr>
+<tr>
+<td>PDF</td>
+<td>Klik untuk mendownload report dalam format PDF</td>
+</tr>
+<tr>
+<td>CSV</td>
+<td>Klik untuk mendownload report dalam format CSV</td>
+</tr>
+<tr>
+<td>Ma Name</td>
+<td>Berisi informasi nama merchant</td>
+</tr>
+<tr>
+<td>Boi</td>
+<td>Berisi informasi kode BOI merchant</td>
+</tr>
+<tr>
+<td>Channel Name</td>
+<td>Berisi informasi nama channel</td>
+</tr>
+<tr>
+<td>Channel Category</td>
+<td>Berisi informasi kategori channel</td>
+</tr>
+<tr>
+<td>Product</td>
+<td>Berisi informasi nama product yang digunakan merchant</td>
+</tr>
+<tr>
+<td>Settlement</td>
+<td>Berisi informasi jenis settlement yang digunakan merchant</td>
+</tr>
+<tr>
+<td>Mch Fee Flat</td>
+<td>Berisi informasi amount fee merchant</td>
+</tr>
+<tr>
+<td>Mch Fee Persentage</td>
+<td>Berisi informasi persentase fee merchant</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM43.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Parameter Sales Report</em></p></p>
+
+<p><img src="/images/CRM44.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Sales Report</em></p></p>
+
+<h3 id="dashboard">Dashboard</h3>
+
+<p>Berisi informasi report-report yang berkaitan dengan merchant Faspay dalam bentuk grafik </p>
+
+<p><b><u>Langkah-Langkah View Dashboard</b></u></p>
+
+<ul>
+<li>Klik menu <strong>Dashboard</strong> pada panel menu sebelah kiri</li>
+</ul>
+
+<p><img src="/images/CRM45.png" alt="Image of CRM" />
+<p align="center"><em>Menu Dashboard Pada Panel Menu Sebelah Kiri</em></p></p>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Project</td>
+<td>Menampilkan informasi jumlah project keseluruhan</td>
+</tr>
+<tr>
+<td>Merchants</td>
+<td>Menampilkan informasi jumlah merchant keseluruhan</td>
+</tr>
+<tr>
+<td>Channels</td>
+<td>Menampilkan informasi jumlah channel keseluruhan</td>
+</tr>
+<tr>
+<td>Search Merchant By BOI</td>
+<td>Berfungsi untuk menampilkan ID dan nama merchant berdasarkan BOI yang dipilih</td>
+</tr>
+<tr>
+<td>Merchants Graph</td>
+<td>Menampilkan jumlah merchant berdasarkan kategori internal dan industri</td>
+</tr>
+<tr>
+<td>Activity Graph</td>
+<td>Menampilkan jumlah activity berdasarkan bulan dan tahun</td>
+</tr>
+<tr>
+<td>All Sales Activity Graph</td>
+<td>Menampilkan jumlah activity semua sales member berdasarkan plan dan aktual</td>
+</tr>
+</tbody></table>
+
+<p><img src="/images/CRM46.png" alt="Image of CRM" />
+<img src="/images/CRM47.png" alt="Image of CRM" />
+<p align="center"><em>Tampilan Dashboard</em></p></p>
+
+<h1 id="finance-module">Finance Module</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Finance module adalah aplikasi module yang digunakan untuk mengelola data finance Faspay. Pengelolaan data finance meliputi finance process, rekon maupun settlement ke merchant.</p>
+
+<h2 id="features">Features</h2>
+
+<p>Finance module sudah dilengkapi dengan berbagai fitur untuk memudahkan dalam mengolah data finance, diantaranya :</p>
+
+<ul>
+<li>Manage All Merchant BOI<br></li>
+<li>Manage All Channel</li>
+<li>Reconciliation</li>
+<li>Settlement</li>
+<li>Process Finance</li>
+<li>Finance Report</li>
+</ul>
